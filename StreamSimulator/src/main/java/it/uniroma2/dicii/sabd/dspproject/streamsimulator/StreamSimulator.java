@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 
 public class StreamSimulator {
 
-    private static final String eventTimeFormat = "yyyy-MM-dd'T'HH:mm:ss.sss";
+    private static final String EVENT_TIME_FORMAT = "yyyy-MM-dd'T'HH:mm:ss.sss";
 
     /* This function parses the timestamp of a breakdown event returning a corresponding Date object */
     private static Date getEventTime(String breakdownEvent) throws ParseException, IOException, CsvValidationException {
@@ -34,7 +34,7 @@ public class StreamSimulator {
         String[] fields = csvReader.readNext();
         csvReader.close();
         String stringDate = fields[7];
-        SimpleDateFormat sdf = new SimpleDateFormat(eventTimeFormat, Locale.US);
+        SimpleDateFormat sdf = new SimpleDateFormat(EVENT_TIME_FORMAT, Locale.US);
         return sdf.parse(stringDate);
     }
 

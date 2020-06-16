@@ -102,28 +102,28 @@ public class AvgDelaysByCounty {
 
 		/* Compute average delay by county during the last 24 hours */
 		countyDelays
-			.timeWindow(Time.hours(24), Time.hours(1))
+			.timeWindow(Time.hours(24))
 			.aggregate(new AvgDelayCalculator(), new WindowedCountyAvgDelayCalculator())
 			/* Merge average delays */
-			.timeWindowAll(Time.hours(24), Time.hours(1))
+			.timeWindowAll(Time.hours(24))
 			.process(new WindowedCountyAvgDelayAggregator())
 			.addSink(dailyAvgDelaysByCountyProducer);
 
 		/* Compute average delay by county during the last 7 days */
 		countyDelays
-				.timeWindow(Time.days(7), Time.days(1))
+				.timeWindow(Time.days(7))
 				.aggregate(new AvgDelayCalculator(), new WindowedCountyAvgDelayCalculator())
 				/* Merge average delays */
-				.timeWindowAll(Time.days(7), Time.days(1))
+				.timeWindowAll(Time.days(7))
 				.process(new WindowedCountyAvgDelayAggregator())
 				.addSink(weeklyAvgDelaysByCountyProducer);
 
 		/* Compute average delay by county during the last 30 days */
 		countyDelays
-				.timeWindow(Time.days(30), Time.days(1))
+				.timeWindow(Time.days(30))
 				.aggregate(new AvgDelayCalculator(), new WindowedCountyAvgDelayCalculator())
 				/* Merge average delays */
-				.timeWindowAll(Time.days(30), Time.days(1))
+				.timeWindowAll(Time.days(30))
 				.process(new WindowedCountyAvgDelayAggregator())
 				.addSink(monthlyAvgDelaysByCountyProducer);
 

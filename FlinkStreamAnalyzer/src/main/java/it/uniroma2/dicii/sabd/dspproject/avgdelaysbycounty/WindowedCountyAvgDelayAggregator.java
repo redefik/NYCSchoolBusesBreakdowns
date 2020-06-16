@@ -14,15 +14,17 @@ import static it.uniroma2.dicii.sabd.dspproject.utils.BreakdownParser.EVENT_TIME
 public class WindowedCountyAvgDelayAggregator extends ProcessAllWindowFunction<WindowedCountyAvgDelay, String, TimeWindow> {
     @Override
     public void process(Context context, Iterable<WindowedCountyAvgDelay> iterable, Collector<String> collector) {
-        Long startTimestamp = context.window().getStart();
+        long startTimestamp = context.window().getStart();
         Date date = new Date(startTimestamp);
         SimpleDateFormat sdf = new SimpleDateFormat(EVENT_TIME_FORMAT, Locale.US);
         String printableStartTimestamp = sdf.format(date);
         StringBuilder output = new StringBuilder(printableStartTimestamp + "");
         for (WindowedCountyAvgDelay windowedCountyAvgDelay : iterable) {
-            if (windowedCountyAvgDelay.getStartTimestamp().equals(startTimestamp)) {
+            output.append(",").append(windowedCountyAvgDelay.getCounty()).append(",").append(windowedCountyAvgDelay.getAvgDelay());
+            /* Use the lines below in case of sliding window */
+            /*if (windowedCountyAvgDelay.getStartTimestamp().equals(startTimestamp)) {
                 output.append(",").append(windowedCountyAvgDelay.getCounty()).append(",").append(windowedCountyAvgDelay.getAvgDelay());
-            }
+            }*/
         }
         collector.collect(output.toString());
     }

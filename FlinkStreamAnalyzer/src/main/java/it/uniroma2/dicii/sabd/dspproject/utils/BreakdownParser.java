@@ -4,9 +4,11 @@ import com.opencsv.CSVParserBuilder;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
 import com.opencsv.exceptions.CsvValidationException;
+import org.apache.flink.api.java.tuple.Tuple2;
 
 import java.io.IOException;
 import java.io.StringReader;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -19,6 +21,8 @@ public class BreakdownParser {
     public static final String EVENT_TIME_FORMAT = "yyyy-MM-dd'T'HH:mm:ss.sss";
     public static final int COUNTY_FIELD = 10;
     public static final int DELAY_FIELD = 12;
+    public static final int REASON_FIELD = 6;
+    public static final int COMPANY_FIELD = 11;
 
     public static class BreakdownParserException extends Exception {
 
@@ -84,6 +88,17 @@ public class BreakdownParser {
         } catch (CsvValidationException | IOException e) {
             throw new BreakdownParserException();
         }
+    }
+
+    public static String parseCompany(String companyString, List<Tuple2<String, String>> schoolBusCompaniesPatterns) {
+        for (Tuple2<String, String> schoolBusCompanyPattern : schoolBusCompaniesPatterns) {
+            Pattern pattern = Pattern.compile(schoolBusCompanyPattern.f0, Pattern.CASE_INSENSITIVE);
+            Matcher matcher = pattern.matcher(companyString);
+            if (matcher.find()) {
+                return schoolBusCompanyPattern.f1;
+            }
+        }
+        return null;
     }
 
 }

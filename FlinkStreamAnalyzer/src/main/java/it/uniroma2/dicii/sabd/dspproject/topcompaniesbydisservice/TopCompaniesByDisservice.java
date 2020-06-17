@@ -1,3 +1,11 @@
+/*
+ * This class implements a Flink Streaming job used to answer the following query:
+ * Determine in real-time the 5 bus vendors with the highest disservice score using the
+ * following time window:
+ * 24 hours (event time)
+ * 7 days (event time)
+* */
+
 package it.uniroma2.dicii.sabd.dspproject.topcompaniesbydisservice;
 
 import it.uniroma2.dicii.sabd.dspproject.utils.BreakdownKafkaDeserializer;
@@ -77,13 +85,11 @@ public class TopCompaniesByDisservice {
         kafkaProducerConfiguration.setProperty("bootstrap.servers", configuration.getProperty("commons.kafka.address"));
 
         /* Kafka Consumer setup*/
-        // TODO after merging transform avgdelaysbycounty to commons
-        FlinkKafkaConsumer<String> breakdownsConsumer = new FlinkKafkaConsumer<>(configuration.getProperty("avgdelaysbycounty.kafka.input.topic"), new BreakdownKafkaDeserializer(), kafkaConsumerConfiguration);
+        FlinkKafkaConsumer<String> breakdownsConsumer = new FlinkKafkaConsumer<>(configuration.getProperty("commons.kafka.input.topic"), new BreakdownKafkaDeserializer(), kafkaConsumerConfiguration);
         /* Timestamp and watermark generation */
         breakdownsConsumer.assignTimestampsAndWatermarks(new BreakdownTimestampExtractor());
 
         /* Kafka Producers setup */
-        // TODO Possible refactoring after merging
         String dailyTopCompaniesByDisserviceKafkaTopic = configuration.getProperty("topcompaniesbydisservice.kafka.output.dailytopic");
         FlinkKafkaProducer<String> dailyTopCompaniesByDisserviceProducer =
                 new FlinkKafkaProducer<>(dailyTopCompaniesByDisserviceKafkaTopic,
@@ -116,6 +122,7 @@ public class TopCompaniesByDisservice {
                  /* Compute the k companies with the highest disservice score */
                 .timeWindowAll(Time.hours(24))
                 .process(new TopKCompaniesByDisserviceScoreCalculator(topCompaniesRankingSize))
+                /* Set Kafka producer as stream sink */
                 .addSink(dailyTopCompaniesByDisserviceProducer);
 
         delayAndReasonByCompany
@@ -125,6 +132,7 @@ public class TopCompaniesByDisservice {
                 /* Compute the k companies with the highest disservice score */
                 .timeWindowAll(Time.days(7))
                 .process(new TopKCompaniesByDisserviceScoreCalculator(topCompaniesRankingSize))
+                /* Set Kafka producer as stream sink */
                 .addSink(weeklyTopCompaniesByDisserviceProducer);
 
 

@@ -9,6 +9,9 @@ import java.util.*;
 
 import static it.uniroma2.dicii.sabd.dspproject.utils.BreakdownParser.EVENT_TIME_FORMAT;
 
+/*
+* This class obtains the K companies with the highest disservice score during a time window
+* */
 public class TopKCompaniesByDisserviceScoreCalculator extends ProcessAllWindowFunction<WindowedCompanyDisserviceScore, String, TimeWindow> {
 
     private int k;
@@ -34,7 +37,6 @@ public class TopKCompaniesByDisserviceScoreCalculator extends ProcessAllWindowFu
         }
         /* Get start timestamp of the window */
         long startTimestamp = context.window().getStart();
-        // TODO possibly refactor
         Date date = new Date(startTimestamp);
         SimpleDateFormat sdf = new SimpleDateFormat(EVENT_TIME_FORMAT, Locale.US);
         String printableStartTimestamp = sdf.format(date);

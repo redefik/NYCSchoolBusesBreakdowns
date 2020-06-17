@@ -10,6 +10,10 @@ import java.util.List;
 
 import static it.uniroma2.dicii.sabd.dspproject.utils.BreakdownParser.*;
 
+/*
+ * Parses a breakdown event extracting the delay caused by the breakdown, the reason of the delay and the company
+ * of the broken school bus
+ * */
 public class DelayReasonCompanyExtractor implements FlatMapFunction<String, Tuple3<Double, String, String>> {
 
     private List<Tuple2<String, String>> schoolBusCompaniesPatterns;

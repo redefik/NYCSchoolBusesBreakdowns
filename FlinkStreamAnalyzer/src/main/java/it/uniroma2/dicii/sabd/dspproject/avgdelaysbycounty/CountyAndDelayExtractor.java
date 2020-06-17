@@ -7,6 +7,9 @@ import org.apache.flink.util.Collector;
 import static it.uniroma2.dicii.sabd.dspproject.utils.BreakdownParser.COUNTY_FIELD;
 import static it.uniroma2.dicii.sabd.dspproject.utils.BreakdownParser.DELAY_FIELD;
 
+/*
+* Parses a breakdown event extracting the county into which the event occurred and the delay caused by the breakdown
+* */
 public class CountyAndDelayExtractor implements FlatMapFunction<String, Tuple2<String, Double>> {
     @Override
     public void flatMap(String breakdownEvent, Collector<Tuple2<String, Double>> collector) {
@@ -17,6 +20,7 @@ public class CountyAndDelayExtractor implements FlatMapFunction<String, Tuple2<S
             if (county.equals("")) {
                 return;
             }
+            /* Parsing delay */
             String delayString = breakdownEventFields[DELAY_FIELD];
             Double delay = BreakdownParser.parseDelay(delayString);
             if (delay == null) {

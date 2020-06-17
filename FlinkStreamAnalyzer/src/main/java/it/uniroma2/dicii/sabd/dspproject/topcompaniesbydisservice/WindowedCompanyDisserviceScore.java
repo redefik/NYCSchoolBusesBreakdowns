@@ -8,8 +8,7 @@ public class WindowedCompanyDisserviceScore {
     private String company;
     private Double disserviceScore;
 
-    public WindowedCompanyDisserviceScore() {
-    }
+    public WindowedCompanyDisserviceScore() { }
 
     public String getCompany() {
         return company;

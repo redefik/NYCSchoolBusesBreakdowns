@@ -3,6 +3,10 @@ package it.uniroma2.dicii.sabd.dspproject.avgdelaysbycounty;
 import org.apache.flink.api.common.functions.AggregateFunction;
 import org.apache.flink.api.java.tuple.Tuple2;
 
+/*
+* Computes the average delay in a specific county during a specific time window.
+* The computation is made incrementally through an accumulator that tracks the overall delay and the count of delays
+* */
 public class AvgDelayCalculator implements AggregateFunction<Tuple2<String, Double>, Tuple2<Double, Long>, Double> {
     @Override
     public Tuple2<Double, Long> createAccumulator() {

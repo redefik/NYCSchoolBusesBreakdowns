@@ -16,6 +16,9 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/*
+* This class contains a bunch of utility methods used to parse a breakdown event record
+* */
 public class BreakdownParser {
 
     private static final String[] DELAY_PATTERNS = {"(\\d+)[-/](\\d+)\\s*([mMHh])*.*", "(\\d+)\\s*([mMhH]).*", "\\d+"};
@@ -26,7 +29,6 @@ public class BreakdownParser {
     public static final int COUNTY_FIELD = 10;
     public static final int DELAY_FIELD = 12;
     public static final int TIMESTAMP_FIELD = 8;
-    public static final int CAUSE_FIELD = 6;
     public static final String MORNING_TIME_SLOT_START = "05:00";
     public static final String MORNING_TIME_SLOT_END = "11:59";
     public static final String AFTERNOON_TIME_SLOT_START = "12:00";
@@ -38,7 +40,9 @@ public class BreakdownParser {
 
     }
 
-    // todo return delay in minutes
+    /*
+    * Parses the delay field of a breakdown event record returning the amount of delay in minutes
+    * */
     public static Double parseDelay(String delayString) {
         for (int i = 0; i < DELAY_PATTERNS.length; i++) {
             Pattern pattern = Pattern.compile(DELAY_PATTERNS[i]);
@@ -86,7 +90,9 @@ public class BreakdownParser {
         return null;
     }
 
-    /* Returns the fields of a CSV string as an array of String */
+    /*
+    * Returns the fields of a CSV string as an array of String
+    * */
     public static String[] getFieldsFromCsvString(String s) throws BreakdownParserException {
         try {
             CSVParserBuilder csvParserBuilder = new CSVParserBuilder().withSeparator(';');
@@ -100,6 +106,9 @@ public class BreakdownParser {
         }
     }
 
+    /*
+    * Returns the time slot into which lays the event timestamp of a breakdown event
+    * */
     public static String getTimeSlot(String eventTimestampString) throws BreakdownParserException {
         try{
             SimpleDateFormat sdf = new SimpleDateFormat(EVENT_TIME_FORMAT, Locale.US);
@@ -127,6 +136,11 @@ public class BreakdownParser {
         }
     }
 
+    /*
+    * Parses the school bus company field of a breakdown event record
+    * Since the field may be dirty, this methods references to a user-defined list of well-known bus companies
+    * to make the parsing.
+    * */
     public static String parseCompany(String companyString, List<Tuple2<String, String>> schoolBusCompaniesPatterns) {
         for (Tuple2<String, String> schoolBusCompanyPattern : schoolBusCompaniesPatterns) {
             Pattern pattern = Pattern.compile(schoolBusCompanyPattern.f0, Pattern.CASE_INSENSITIVE);

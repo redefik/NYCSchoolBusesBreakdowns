@@ -1,4 +1,4 @@
-package it.uniroma2.dicii.sabd.dspproject.breakdowncausesbytimeslot;
+package it.uniroma2.dicii.sabd.dspproject.breakdownreasonsbytimeslot;
 
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.functions.windowing.ProcessAllWindowFunction;
@@ -10,7 +10,10 @@ import java.util.*;
 
 import static it.uniroma2.dicii.sabd.dspproject.utils.BreakdownParser.*;
 
-public class CausesRankByTimeSlotCalculator extends ProcessAllWindowFunction<Tuple2<Tuple2<String,String>, Long>, String, TimeWindow> {
+/*
+* This class build the ranking of the most frequent reasons for each time slot inside a time window
+* */
+public class ReasonsRankByTimeSlotCalculator extends ProcessAllWindowFunction<Tuple2<Tuple2<String,String>, Long>, String, TimeWindow> {
 
     private static final Integer RANK_LENGTH = 3;
 

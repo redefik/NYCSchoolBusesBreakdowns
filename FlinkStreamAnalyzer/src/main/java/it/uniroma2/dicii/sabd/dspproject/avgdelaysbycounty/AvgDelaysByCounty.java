@@ -1,20 +1,10 @@
 /*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+* This class implements a Flink Streaming job used to answer the following query:
+* Determine in rel-time the average bus delay per county using the following windows:
+* 24 hours (event time)
+* 7 days (event time)
+* 1 month (event time)
+* */
 
 package it.uniroma2.dicii.sabd.dspproject.avgdelaysbycounty;
 
@@ -29,7 +19,6 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer;
-
 import java.io.InputStream;
 import java.util.Properties;
 
@@ -64,8 +53,8 @@ public class AvgDelaysByCounty {
 		Properties kafkaProducerConfiguration = new Properties();
 		kafkaProducerConfiguration.setProperty("bootstrap.servers", configuration.getProperty("commons.kafka.address"));
 
-		/* Kafka Consumer setup*/
-		FlinkKafkaConsumer<String> breakdownsConsumer = new FlinkKafkaConsumer<>(configuration.getProperty("avgdelaysbycounty.kafka.input.topic"), new BreakdownKafkaDeserializer(), kafkaConsumerConfiguration);
+		/* Kafka Consumer setup */
+		FlinkKafkaConsumer<String> breakdownsConsumer = new FlinkKafkaConsumer<>(configuration.getProperty("commons.kafka.input.topic"), new BreakdownKafkaDeserializer(), kafkaConsumerConfiguration);
 		/* Timestamp and watermark generation */
 		breakdownsConsumer.assignTimestampsAndWatermarks(new BreakdownTimestampExtractor());
 
@@ -89,10 +78,8 @@ public class AvgDelaysByCounty {
 						kafkaProducerConfiguration,
 						FlinkKafkaProducer.Semantic.AT_LEAST_ONCE);
 
-
 		/* Set Kafka consumer as stream source */
 		DataStream<String> inputStream = env.addSource(breakdownsConsumer);
-
 
 		KeyedStream<Tuple2<String, Double>, String> countyDelays = inputStream
 				/* Breakdown parsing: county and delay extraction */
@@ -100,31 +87,35 @@ public class AvgDelaysByCounty {
 				/* Group by county */
 				.keyBy(x-> x.f0);
 
-		/* Compute average delay by county during the last 24 hours */
-		countyDelays
-			.timeWindow(Time.hours(24))
-			.aggregate(new AvgDelayCalculator(), new WindowedCountyAvgDelayCalculator())
-			/* Merge average delays */
-			.timeWindowAll(Time.hours(24))
-			.process(new WindowedCountyAvgDelayAggregator())
-			.addSink(dailyAvgDelaysByCountyProducer);
 
-		/* Compute average delay by county during the last 7 days */
 		countyDelays
+				/* Compute average delay by county during the last 24 hours */
+				.timeWindow(Time.hours(24))
+				.aggregate(new AvgDelayCalculator(), new WindowedCountyAvgDelayCalculator())
+				/* Merge computed delays into a single output */
+				.timeWindowAll(Time.hours(24))
+				.process(new WindowedCountyAvgDelayAggregator())
+				/* Set Kafka producer as stream sink */
+				.addSink(dailyAvgDelaysByCountyProducer);
+
+		countyDelays
+				/* Compute average delay by county during the last 7 days */
 				.timeWindow(Time.days(7))
 				.aggregate(new AvgDelayCalculator(), new WindowedCountyAvgDelayCalculator())
-				/* Merge average delays */
+				/* Merge computed delays into a single output */
 				.timeWindowAll(Time.days(7))
 				.process(new WindowedCountyAvgDelayAggregator())
+				/* Set Kafka producer as stream sink */
 				.addSink(weeklyAvgDelaysByCountyProducer);
 
-		/* Compute average delay by county during the last 30 days */
 		countyDelays
+				/* Compute average delay by county during the last 30 days */
 				.timeWindow(Time.days(30))
 				.aggregate(new AvgDelayCalculator(), new WindowedCountyAvgDelayCalculator())
-				/* Merge average delays */
+				/* Merge computed delays into a single output */
 				.timeWindowAll(Time.days(30))
 				.process(new WindowedCountyAvgDelayAggregator())
+				/* Set Kafka producer as stream sink */
 				.addSink(monthlyAvgDelaysByCountyProducer);
 
 		env.execute("Average Delays By County");

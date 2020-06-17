@@ -4,6 +4,10 @@ import org.apache.flink.streaming.api.functions.windowing.ProcessWindowFunction;
 import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
 import org.apache.flink.util.Collector;
 
+/*
+ * This class enriches the disservice score earned by a company during a time window with the name of the county.
+ * (Used in combination with CompanyDisserviceScoreCalculator)
+ * */
 public class WindowedCompanyDisserviceScoreCalculator extends ProcessWindowFunction<Double, WindowedCompanyDisserviceScore, String, TimeWindow> {
 
     @Override

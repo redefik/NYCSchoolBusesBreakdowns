@@ -7,6 +7,9 @@ import java.text.SimpleDateFormat;
 import java.util.Locale;
 import static it.uniroma2.dicii.sabd.dspproject.utils.BreakdownParser.EVENT_TIME_FORMAT;
 
+/*
+* This class encapsulates the logic used to deserialize the breakdown events records read from a Kafka topic
+* */
 public class BreakdownKafkaDeserializer extends AbstractDeserializationSchema<String> {
 
     private static final int EVENT_TIMESTAMP_FIELD = 7;

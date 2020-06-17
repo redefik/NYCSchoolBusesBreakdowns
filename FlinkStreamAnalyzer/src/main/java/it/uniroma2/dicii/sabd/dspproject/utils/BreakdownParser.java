@@ -7,6 +7,10 @@ import com.opencsv.exceptions.CsvValidationException;
 
 import java.io.IOException;
 import java.io.StringReader;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -19,6 +23,12 @@ public class BreakdownParser {
     public static final String EVENT_TIME_FORMAT = "yyyy-MM-dd'T'HH:mm:ss.sss";
     public static final int COUNTY_FIELD = 10;
     public static final int DELAY_FIELD = 12;
+    public static final int TIMESTAMP_FIELD = 8;
+    public static final int CAUSE_FIELD = 6;
+    public static final String MORNING_TIME_SLOT_START = "05:00";
+    public static final String MORNING_TIME_SLOT_END = "11:59";
+    public static final String AFTERNOON_TIME_SLOT_START = "12:00";
+    public static final String AFTERNOON_TIME_SLOT_END = "19:00";
 
     public static class BreakdownParserException extends Exception {
 
@@ -82,6 +92,33 @@ public class BreakdownParser {
             csvReader.close();
             return fields;
         } catch (CsvValidationException | IOException e) {
+            throw new BreakdownParserException();
+        }
+    }
+
+    public static String getTimeSlot(String eventTimestampString) throws BreakdownParserException {
+        try{
+            SimpleDateFormat sdf = new SimpleDateFormat(EVENT_TIME_FORMAT, Locale.US);
+            Date eventTimestamp = sdf.parse(eventTimestampString);
+
+            String eventTimeString = new SimpleDateFormat("HH:mm").format(eventTimestamp);
+            Date eventTime = new SimpleDateFormat("HH:mm").parse(eventTimeString);
+
+            Date morningTimeSlotStart = new SimpleDateFormat("HH:mm").parse(MORNING_TIME_SLOT_START);
+            Date morningTimeSlotEnd = new SimpleDateFormat("HH:mm").parse(MORNING_TIME_SLOT_END);
+            Date afternoonTimeSlotStart = new SimpleDateFormat("HH:mm").parse(AFTERNOON_TIME_SLOT_START);
+            Date afternoonTimeSlotEnd = new SimpleDateFormat("HH:mm").parse(AFTERNOON_TIME_SLOT_END);
+
+            if (eventTime.equals(morningTimeSlotStart) || eventTime.equals(morningTimeSlotEnd) ||
+                    (eventTime.after(morningTimeSlotStart) && eventTime.before(morningTimeSlotEnd))){
+                return MORNING_TIME_SLOT_START + "-" + MORNING_TIME_SLOT_END;
+            } else if (eventTime.equals(afternoonTimeSlotStart) || eventTime.equals(afternoonTimeSlotEnd) ||
+                    (eventTime.after(afternoonTimeSlotStart) && eventTime.before(afternoonTimeSlotEnd))){
+                return AFTERNOON_TIME_SLOT_START + "-" + AFTERNOON_TIME_SLOT_END;
+            } else {
+                return null;
+            }
+        } catch (ParseException e){
             throw new BreakdownParserException();
         }
     }

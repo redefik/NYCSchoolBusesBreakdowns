@@ -19,7 +19,7 @@ public class DelayReasonCompanyExtractor implements FlatMapFunction<String, Tupl
     }
 
     @Override
-    public void flatMap(String breakdownEvent, Collector<Tuple3<Double, String, String>> collector) throws Exception {
+    public void flatMap(String breakdownEvent, Collector<Tuple3<Double, String, String>> collector) {
         try {
             String[] breakdownEventFields = BreakdownParser.getFieldsFromCsvString(breakdownEvent);
             /* Parsing delay */

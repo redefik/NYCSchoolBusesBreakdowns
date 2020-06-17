@@ -5,9 +5,12 @@ import it.uniroma2.dicii.sabd.dspproject.utils.BreakdownParser;
 import it.uniroma2.dicii.sabd.dspproject.utils.BreakdownTimestampExtractor;
 import it.uniroma2.dicii.sabd.dspproject.utils.KafkaStringSerializer;
 import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
+import org.apache.flink.streaming.api.datastream.KeyedStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
+import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer;
 
@@ -94,14 +97,35 @@ public class TopCompaniesByDisservice {
                         kafkaProducerConfiguration,
                         FlinkKafkaProducer.Semantic.AT_LEAST_ONCE);
 
+        int topCompaniesRankingSize = Integer.parseInt(configuration.getProperty("topcompaniesbydisservice.ranking.size"));
+
         /* Set Kafka consumer as stream source */
         DataStream<String> inputStream = env.addSource(breakdownsConsumer);
 
-        inputStream
+        KeyedStream<Tuple3<Double, String, String>, String> delayAndReasonByCompany = inputStream
                 /* Breakdown parsing: delay, reason and school bus company extraction */
                 .flatMap(new DelayReasonCompanyExtractor(schoolBusCompaniesPatterns))
-                .print();
+                /* Group by school bus company */
+                .keyBy(x -> x.f2);
 
+
+        delayAndReasonByCompany
+                 /* Compute a disservice score for each company during the last 24 hours */
+                .timeWindow(Time.hours(24))
+                .aggregate(new CompanyDisserviceScoreCalculator(), new WindowedCompanyDisserviceScoreCalculator())
+                 /* Compute the k companies with the highest disservice score */
+                .timeWindowAll(Time.hours(24))
+                .process(new TopKCompaniesByDisserviceScoreCalculator(topCompaniesRankingSize))
+                .addSink(dailyTopCompaniesByDisserviceProducer);
+
+        delayAndReasonByCompany
+                /* Compute a disservice score for each company during the last 7 days */
+                .timeWindow(Time.days(7))
+                .aggregate(new CompanyDisserviceScoreCalculator(), new WindowedCompanyDisserviceScoreCalculator())
+                /* Compute the k companies with the highest disservice score */
+                .timeWindowAll(Time.days(7))
+                .process(new TopKCompaniesByDisserviceScoreCalculator(topCompaniesRankingSize))
+                .addSink(weeklyTopCompaniesByDisserviceProducer);
 
 
         env.execute("Top Companies By Disservice");

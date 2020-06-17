@@ -4,9 +4,11 @@ import com.opencsv.CSVParserBuilder;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
 import com.opencsv.exceptions.CsvValidationException;
+import org.apache.flink.api.java.tuple.Tuple2;
 
 import java.io.IOException;
 import java.io.StringReader;
+import java.util.List;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -29,6 +31,8 @@ public class BreakdownParser {
     public static final String MORNING_TIME_SLOT_END = "11:59";
     public static final String AFTERNOON_TIME_SLOT_START = "12:00";
     public static final String AFTERNOON_TIME_SLOT_END = "19:00";
+    public static final int REASON_FIELD = 6;
+    public static final int COMPANY_FIELD = 11;
 
     public static class BreakdownParserException extends Exception {
 
@@ -121,6 +125,17 @@ public class BreakdownParser {
         } catch (ParseException e){
             throw new BreakdownParserException();
         }
+    }
+
+    public static String parseCompany(String companyString, List<Tuple2<String, String>> schoolBusCompaniesPatterns) {
+        for (Tuple2<String, String> schoolBusCompanyPattern : schoolBusCompaniesPatterns) {
+            Pattern pattern = Pattern.compile(schoolBusCompanyPattern.f0, Pattern.CASE_INSENSITIVE);
+            Matcher matcher = pattern.matcher(companyString);
+            if (matcher.find()) {
+                return schoolBusCompanyPattern.f1;
+            }
+        }
+        return null;
     }
 
 }

@@ -41,22 +41,13 @@ public class CausesRankByTimeSlotCalculator extends ProcessAllWindowFunction<Tup
         int rankLength;
 
         output.append(MORNING_TIME_SLOT_START + "-" + MORNING_TIME_SLOT_END);
-
-        if (morningTimeSlotTuples.size() >= RANK_LENGTH){
-            rankLength = RANK_LENGTH;
-        } else {
-            rankLength = morningTimeSlotTuples.size();
-        }
+        rankLength = (morningTimeSlotTuples.size() >= RANK_LENGTH) ? (RANK_LENGTH) : morningTimeSlotTuples.size();
         for (int i = 0; i < rankLength; i++){
             output.append(", ").append(morningTimeSlotTuples.get(morningTimeSlotTuples.size() - 1 - i).f0.f1);
         }
 
         output.append(", " + AFTERNOON_TIME_SLOT_START + "-" + AFTERNOON_TIME_SLOT_END);
-        if (afternoonTimeSlotTuples.size() >= RANK_LENGTH){
-            rankLength = RANK_LENGTH;
-        } else {
-            rankLength = afternoonTimeSlotTuples.size();
-        }
+        rankLength = (afternoonTimeSlotTuples.size() >= RANK_LENGTH) ? (RANK_LENGTH) : afternoonTimeSlotTuples.size();
         for (int i = 0; i < rankLength; i++){
             output.append(", ").append(afternoonTimeSlotTuples.get(afternoonTimeSlotTuples.size() - 1 - i).f0.f1);
         }

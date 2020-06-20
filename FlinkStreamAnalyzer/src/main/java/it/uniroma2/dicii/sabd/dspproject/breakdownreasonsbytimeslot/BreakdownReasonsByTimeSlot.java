@@ -27,8 +27,8 @@ public class BreakdownReasonsByTimeSlot {
 
     public static void main(String[] args) throws Exception {
 
-        if (args.length != 1) {
-            System.err.println("Required args: <path/to/configuration/file>");
+        if (args.length != 2) {
+            System.err.println("Required args: <path/to/configuration/file> <execution_mode>");
             System.exit(1);
         }
 
@@ -44,6 +44,12 @@ public class BreakdownReasonsByTimeSlot {
 
         /* Flink environment setup */
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+
+        /* Latency tracking is set only in debug mode, since it affects negatively the overall performance */
+        if (args[1].equals("debug")) {
+            env.getConfig().setLatencyTrackingInterval(5);
+        }
+
         /* Setting event-time */
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
@@ -88,7 +94,7 @@ public class BreakdownReasonsByTimeSlot {
                 .reduce(new BreakdownReasonOccurrencesCalculator())
                 /* Calculate rank of reasons for each time slot in a day*/
                 .timeWindowAll(Time.hours(24))
-                .process(new ReasonsRankByTimeSlotCalculator())
+                .process(new ReasonsRankByTimeSlotCalculator("breakdownReasonsByTimeSlot24h"))
                 /* Set Kafka producer as stream sink */
                 .addSink(dailyBreakdownReasonsByTimeSlotProducer);
 
@@ -98,7 +104,7 @@ public class BreakdownReasonsByTimeSlot {
                 .reduce(new BreakdownReasonOccurrencesCalculator())
                 /* Calculate rank of reasons for each time slot in a week */
                 .timeWindowAll(Time.days(7))
-                .process(new ReasonsRankByTimeSlotCalculator())
+                .process(new ReasonsRankByTimeSlotCalculator("breakdownReasonsByTimeSlot7d"))
                 /* Set Kafka producer as stream sink */
                 .addSink(weeklyBreakdownReasonsByTimeSlotProducer);
 

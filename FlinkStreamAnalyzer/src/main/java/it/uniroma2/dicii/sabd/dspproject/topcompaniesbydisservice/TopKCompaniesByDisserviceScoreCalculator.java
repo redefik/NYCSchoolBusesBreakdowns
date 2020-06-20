@@ -1,5 +1,8 @@
 package it.uniroma2.dicii.sabd.dspproject.topcompaniesbydisservice;
 
+import org.apache.flink.configuration.Configuration;
+import org.apache.flink.dropwizard.metrics.DropwizardMeterWrapper;
+import org.apache.flink.metrics.Meter;
 import org.apache.flink.streaming.api.functions.windowing.ProcessAllWindowFunction;
 import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
 import org.apache.flink.util.Collector;
@@ -15,8 +18,23 @@ import static it.uniroma2.dicii.sabd.dspproject.utils.BreakdownParser.EVENT_TIME
 public class TopKCompaniesByDisserviceScoreCalculator extends ProcessAllWindowFunction<WindowedCompanyDisserviceScore, String, TimeWindow> {
 
     private int k;
+    private transient Meter avgThroughput;
+    private String operatorName;
 
-    public TopKCompaniesByDisserviceScoreCalculator(int k) {
+    /* Instrumentation code for performance evaluation */
+    @Override
+    public void open(Configuration parameters) {
+        com.codahale.metrics.Meter dropWizardMeter = new com.codahale.metrics.Meter();
+        this.avgThroughput =
+                getRuntimeContext()
+                        .getMetricGroup()
+                        .meter(operatorName + "AvgThroughput", new DropwizardMeterWrapper(dropWizardMeter));
+    }
+
+
+    public TopKCompaniesByDisserviceScoreCalculator(String operatorName, int k) {
+        super();
+        this.operatorName = operatorName;
         this.k = k;
     }
 
@@ -45,6 +63,7 @@ public class TopKCompaniesByDisserviceScoreCalculator extends ProcessAllWindowFu
         for (WindowedCompanyDisserviceScore companyDisserviceScore : topKCompanies) {
             output.append(",").append(companyDisserviceScore.getCompany()).append(",").append(companyDisserviceScore.getDisserviceScore());
         }
+        this.avgThroughput.markEvent();
         collector.collect(output.toString());
     }
 }

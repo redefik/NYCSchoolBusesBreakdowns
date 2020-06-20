@@ -1,6 +1,9 @@
 package it.uniroma2.dicii.sabd.dspproject.breakdownreasonsbytimeslot;
 
 import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.configuration.Configuration;
+import org.apache.flink.dropwizard.metrics.DropwizardMeterWrapper;
+import org.apache.flink.metrics.Meter;
 import org.apache.flink.streaming.api.functions.windowing.ProcessAllWindowFunction;
 import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
 import org.apache.flink.util.Collector;
@@ -16,6 +19,23 @@ import static it.uniroma2.dicii.sabd.dspproject.utils.BreakdownParser.*;
 public class ReasonsRankByTimeSlotCalculator extends ProcessAllWindowFunction<Tuple2<Tuple2<String,String>, Long>, String, TimeWindow> {
 
     private static final Integer RANK_LENGTH = 3;
+    private transient Meter avgThroughput;
+    private String operatorName;
+
+    public ReasonsRankByTimeSlotCalculator(String operatorName) {
+        super();
+        this.operatorName = operatorName;
+    }
+
+    /* Instrumentation code for performance evaluation */
+    @Override
+    public void open(Configuration parameters) {
+        com.codahale.metrics.Meter dropWizardMeter = new com.codahale.metrics.Meter();
+        this.avgThroughput =
+                getRuntimeContext()
+                        .getMetricGroup()
+                        .meter(operatorName + "AvgThroughput", new DropwizardMeterWrapper(dropWizardMeter));
+    }
 
     @Override
     public void process(Context context, Iterable<Tuple2<Tuple2<String, String>, Long>> iterable, Collector<String> collector) {
@@ -55,6 +75,7 @@ public class ReasonsRankByTimeSlotCalculator extends ProcessAllWindowFunction<Tu
             output.append(", ").append(afternoonTimeSlotTuples.get(afternoonTimeSlotTuples.size() - 1 - i).f0.f1);
         }
 
+        this.avgThroughput.markEvent();
         collector.collect(output.toString());
     }
 }

@@ -26,8 +26,8 @@ public class AvgDelaysByCounty {
 
 	public static void main(String[] args) throws Exception {
 
-		if (args.length != 1) {
-			System.err.println("Required args: <path/to/configuration/file>");
+		if (args.length != 2) {
+			System.err.println("Required args: <path/to/configuration/file> <execution_mode>");
 			System.exit(1);
 		}
 
@@ -43,6 +43,13 @@ public class AvgDelaysByCounty {
 
 		/* Flink environment setup */
 		final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+
+		/* Latency tracking is set only in debug mode, since it affects negatively the overall performance */
+		if (args[1].equals("debug")) {
+		    env.getConfig().setLatencyTrackingInterval(5);
+        }
+
+
 		/* Setting event-time */
 		env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
@@ -94,7 +101,7 @@ public class AvgDelaysByCounty {
 				.aggregate(new AvgDelayCalculator(), new WindowedCountyAvgDelayCalculator())
 				/* Merge computed delays into a single output */
 				.timeWindowAll(Time.hours(24))
-				.process(new WindowedCountyAvgDelayAggregator())
+				.process(new WindowedCountyAvgDelayAggregator("avgDelaysByCounty24h"))
 				/* Set Kafka producer as stream sink */
 				.addSink(dailyAvgDelaysByCountyProducer);
 
@@ -104,7 +111,7 @@ public class AvgDelaysByCounty {
 				.aggregate(new AvgDelayCalculator(), new WindowedCountyAvgDelayCalculator())
 				/* Merge computed delays into a single output */
 				.timeWindowAll(Time.days(7))
-				.process(new WindowedCountyAvgDelayAggregator())
+				.process(new WindowedCountyAvgDelayAggregator("avgDelaysByCounty7d"))
 				/* Set Kafka producer as stream sink */
 				.addSink(weeklyAvgDelaysByCountyProducer);
 
@@ -114,7 +121,7 @@ public class AvgDelaysByCounty {
 				.aggregate(new AvgDelayCalculator(), new WindowedCountyAvgDelayCalculator())
 				/* Merge computed delays into a single output */
 				.timeWindowAll(Time.days(30))
-				.process(new WindowedCountyAvgDelayAggregator())
+				.process(new WindowedCountyAvgDelayAggregator("avgDelaysByCounty30d"))
 				/* Set Kafka producer as stream sink */
 				.addSink(monthlyAvgDelaysByCountyProducer);
 

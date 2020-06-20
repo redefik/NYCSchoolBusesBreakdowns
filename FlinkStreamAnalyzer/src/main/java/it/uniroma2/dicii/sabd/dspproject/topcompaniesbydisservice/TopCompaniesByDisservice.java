@@ -51,8 +51,8 @@ public class TopCompaniesByDisservice {
 
     public static void main(String[] args) throws Exception {
 
-        if (args.length != 2) {
-            System.err.println("Required args: <path/to/configuration/file> <path/to/bus/companies/file>");
+        if (args.length != 3) {
+            System.err.println("Required args: <path/to/configuration/file> <path/to/bus/companies/file> <execution_mode>");
             System.exit(1);
         }
 
@@ -74,6 +74,12 @@ public class TopCompaniesByDisservice {
 
         /* Flink environment setup */
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+
+        /* Latency tracking is set only in debug mode, since it affects negatively the overall performance */
+        if (args[2].equals("debug")) {
+            env.getConfig().setLatencyTrackingInterval(5);
+        }
+
         /* Setting event-time */
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
@@ -121,7 +127,7 @@ public class TopCompaniesByDisservice {
                 .aggregate(new CompanyDisserviceScoreCalculator(), new WindowedCompanyDisserviceScoreCalculator())
                  /* Compute the k companies with the highest disservice score */
                 .timeWindowAll(Time.hours(24))
-                .process(new TopKCompaniesByDisserviceScoreCalculator(topCompaniesRankingSize))
+                .process(new TopKCompaniesByDisserviceScoreCalculator("topCompaniesByDisservice24h", topCompaniesRankingSize))
                 /* Set Kafka producer as stream sink */
                 .addSink(dailyTopCompaniesByDisserviceProducer);
 
@@ -131,7 +137,7 @@ public class TopCompaniesByDisservice {
                 .aggregate(new CompanyDisserviceScoreCalculator(), new WindowedCompanyDisserviceScoreCalculator())
                 /* Compute the k companies with the highest disservice score */
                 .timeWindowAll(Time.days(7))
-                .process(new TopKCompaniesByDisserviceScoreCalculator(topCompaniesRankingSize))
+                .process(new TopKCompaniesByDisserviceScoreCalculator("topCompaniesByDisservice7d", topCompaniesRankingSize))
                 /* Set Kafka producer as stream sink */
                 .addSink(weeklyTopCompaniesByDisserviceProducer);
 

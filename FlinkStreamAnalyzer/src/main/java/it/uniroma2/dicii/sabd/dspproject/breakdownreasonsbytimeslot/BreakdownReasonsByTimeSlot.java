@@ -10,7 +10,7 @@ package it.uniroma2.dicii.sabd.dspproject.breakdownreasonsbytimeslot;
 
 import it.uniroma2.dicii.sabd.dspproject.utils.BreakdownKafkaDeserializer;
 import it.uniroma2.dicii.sabd.dspproject.utils.BreakdownTimestampExtractor;
-import it.uniroma2.dicii.sabd.dspproject.utils.KafkaStringSerializer;
+import it.uniroma2.dicii.sabd.dspproject.utils.KafkaStringProducerFactory;
 import org.apache.flink.api.java.tuple.Tuple;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.TimeCharacteristic;
@@ -20,10 +20,25 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Properties;
 
 public class BreakdownReasonsByTimeSlot {
+
+    /* This method defines the portion of topology used to compute delay reasons by time slot during a time window */
+    private static void computeBreakdownReasonsByTimeSlot(KeyedStream<Tuple2<Tuple2<String, String>, Long>, Tuple> inputStream, Time windowSize, FlinkKafkaProducer<String> outputProducer, String outputName) {
+        inputStream
+            .timeWindow(windowSize)
+            .reduce(new BreakdownReasonOccurrencesCalculator())
+            /* Calculate rank of reasons for each time slot in the time window*/
+            .timeWindowAll(windowSize)
+            .process(new ReasonsRankByTimeSlotCalculator(outputName))
+            /* Set Kafka producer as stream sink */
+            .addSink(outputProducer);
+    }
 
     public static void main(String[] args) throws Exception {
 
@@ -34,10 +49,9 @@ public class BreakdownReasonsByTimeSlot {
 
         /* Load configuration */
         Properties configuration = new Properties();
-        InputStream configurationInputStream = BreakdownReasonsByTimeSlot.class.getClassLoader().getResourceAsStream(args[0]);
-        if (configurationInputStream != null) {
+        try (InputStream configurationInputStream = new FileInputStream(args[0])) {
             configuration.load(configurationInputStream);
-        } else {
+        } catch (FileNotFoundException e) {
             System.err.println("Cannot load configuration file");
             System.exit(2);
         }
@@ -66,18 +80,13 @@ public class BreakdownReasonsByTimeSlot {
         breakdownsConsumer.assignTimestampsAndWatermarks(new BreakdownTimestampExtractor());
 
         /* Kafka Producers setup */
+        KafkaStringProducerFactory factory = new KafkaStringProducerFactory();
+
         String dailyBreakdownReasonsByTimeSlotKafkaTopic = configuration.getProperty("breakdownreasonsbytimeslot.kafka.output.dailytopic");
-        FlinkKafkaProducer<String> dailyBreakdownReasonsByTimeSlotProducer =
-                new FlinkKafkaProducer<>(dailyBreakdownReasonsByTimeSlotKafkaTopic,
-                        new KafkaStringSerializer(dailyBreakdownReasonsByTimeSlotKafkaTopic),
-                        kafkaProducerConfiguration,
-                        FlinkKafkaProducer.Semantic.AT_LEAST_ONCE);
+        FlinkKafkaProducer<String> dailyBreakdownReasonsByTimeSlotProducer = factory.createKafkaStringProducer(dailyBreakdownReasonsByTimeSlotKafkaTopic, kafkaProducerConfiguration);
+
         String weeklyBreakdownReasonsByTimeSlotKafkaTopic = configuration.getProperty("breakdownreasonsbytimeslot.kafka.output.weeklytopic");
-        FlinkKafkaProducer<String> weeklyBreakdownReasonsByTimeSlotProducer =
-                new FlinkKafkaProducer<>(weeklyBreakdownReasonsByTimeSlotKafkaTopic,
-                        new KafkaStringSerializer(weeklyBreakdownReasonsByTimeSlotKafkaTopic),
-                        kafkaProducerConfiguration,
-                        FlinkKafkaProducer.Semantic.AT_LEAST_ONCE);
+        FlinkKafkaProducer<String> weeklyBreakdownReasonsByTimeSlotProducer = factory.createKafkaStringProducer(weeklyBreakdownReasonsByTimeSlotKafkaTopic, kafkaProducerConfiguration);
 
         /* Set Kafka consumer as stream source */
         DataStream<String> inputStream = env.addSource(breakdownsConsumer);
@@ -88,25 +97,9 @@ public class BreakdownReasonsByTimeSlot {
                 /* Group by time slot and reason */
                 .keyBy(0);
 
-        /* Compute the occurrence of breakdowns caused by the same reason in the same time slot during the last 24 hours */
-        timeSlotReasons
-                .timeWindow(Time.hours(24))
-                .reduce(new BreakdownReasonOccurrencesCalculator())
-                /* Calculate rank of reasons for each time slot in a day*/
-                .timeWindowAll(Time.hours(24))
-                .process(new ReasonsRankByTimeSlotCalculator("breakdownReasonsByTimeSlot24h"))
-                /* Set Kafka producer as stream sink */
-                .addSink(dailyBreakdownReasonsByTimeSlotProducer);
-
-        /* Compute the occurrence of breakdowns caused by the same reason in the same time slot during the last 7 days */
-        timeSlotReasons
-                .timeWindow(Time.days(7))
-                .reduce(new BreakdownReasonOccurrencesCalculator())
-                /* Calculate rank of reasons for each time slot in a week */
-                .timeWindowAll(Time.days(7))
-                .process(new ReasonsRankByTimeSlotCalculator("breakdownReasonsByTimeSlot7d"))
-                /* Set Kafka producer as stream sink */
-                .addSink(weeklyBreakdownReasonsByTimeSlotProducer);
+        /* Compute the occurrence of breakdowns caused by the same reason in the same time slot during the last 24 hours and 7 days */
+        computeBreakdownReasonsByTimeSlot(timeSlotReasons, Time.hours(24), dailyBreakdownReasonsByTimeSlotProducer, "breakdownReasonsByTimeSlot24h");
+        computeBreakdownReasonsByTimeSlot(timeSlotReasons, Time.days(7), weeklyBreakdownReasonsByTimeSlotProducer, "breakdownReasonsByTimeSlot7d");
 
         env.execute("Breakdown Reasons By Time Slot");
     }

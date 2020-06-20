@@ -8,10 +8,7 @@
 
 package it.uniroma2.dicii.sabd.dspproject.topcompaniesbydisservice;
 
-import it.uniroma2.dicii.sabd.dspproject.utils.BreakdownKafkaDeserializer;
-import it.uniroma2.dicii.sabd.dspproject.utils.BreakdownParser;
-import it.uniroma2.dicii.sabd.dspproject.utils.BreakdownTimestampExtractor;
-import it.uniroma2.dicii.sabd.dspproject.utils.KafkaStringSerializer;
+import it.uniroma2.dicii.sabd.dspproject.utils.*;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.streaming.api.TimeCharacteristic;
@@ -21,7 +18,6 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -49,6 +45,18 @@ public class TopCompaniesByDisservice {
         }
     }
 
+    private static void computeTopKCompaniesByDisservice(KeyedStream<Tuple3<Double, String, String>, String> inputStream, Time windowSize, FlinkKafkaProducer<String> outputProducer, String outputName, int k) {
+        inputStream
+                /* Compute a disservice score for each company during time window */
+                .timeWindow(windowSize)
+                .aggregate(new CompanyDisserviceScoreCalculator(), new WindowedCompanyDisserviceScoreCalculator())
+                /* Compute the k companies with the highest disservice score */
+                .timeWindowAll(windowSize)
+                .process(new TopKCompaniesByDisserviceScoreCalculator(outputName, k))
+                /* Set Kafka producer as stream sink */
+                .addSink(outputProducer);
+    }
+
     public static void main(String[] args) throws Exception {
 
         if (args.length != 3) {
@@ -58,10 +66,9 @@ public class TopCompaniesByDisservice {
 
         /* Load configuration */
         Properties configuration = new Properties();
-        InputStream configurationInputStream = TopCompaniesByDisservice.class.getClassLoader().getResourceAsStream(args[0]);
-        if (configurationInputStream != null) {
+        try (InputStream configurationInputStream = new FileInputStream(args[0])) {
             configuration.load(configurationInputStream);
-        } else {
+        } catch (FileNotFoundException e) {
             System.err.println("Cannot load configuration file");
             System.exit(2);
         }
@@ -96,18 +103,13 @@ public class TopCompaniesByDisservice {
         breakdownsConsumer.assignTimestampsAndWatermarks(new BreakdownTimestampExtractor());
 
         /* Kafka Producers setup */
+        KafkaStringProducerFactory factory = new KafkaStringProducerFactory();
+
         String dailyTopCompaniesByDisserviceKafkaTopic = configuration.getProperty("topcompaniesbydisservice.kafka.output.dailytopic");
-        FlinkKafkaProducer<String> dailyTopCompaniesByDisserviceProducer =
-                new FlinkKafkaProducer<>(dailyTopCompaniesByDisserviceKafkaTopic,
-                        new KafkaStringSerializer(dailyTopCompaniesByDisserviceKafkaTopic),
-                        kafkaProducerConfiguration,
-                        FlinkKafkaProducer.Semantic.AT_LEAST_ONCE);
+        FlinkKafkaProducer<String> dailyTopCompaniesByDisserviceProducer = factory.createKafkaStringProducer(dailyTopCompaniesByDisserviceKafkaTopic, kafkaProducerConfiguration);
+
         String weeklyTopCompaniesByDisserviceKafkaTopic = configuration.getProperty("topcompaniesbydisservice.kafka.output.weeklytopic");
-        FlinkKafkaProducer<String> weeklyTopCompaniesByDisserviceProducer =
-                new FlinkKafkaProducer<>(weeklyTopCompaniesByDisserviceKafkaTopic,
-                        new KafkaStringSerializer(weeklyTopCompaniesByDisserviceKafkaTopic),
-                        kafkaProducerConfiguration,
-                        FlinkKafkaProducer.Semantic.AT_LEAST_ONCE);
+        FlinkKafkaProducer<String> weeklyTopCompaniesByDisserviceProducer = factory.createKafkaStringProducer(weeklyTopCompaniesByDisserviceKafkaTopic, kafkaProducerConfiguration);
 
         int topCompaniesRankingSize = Integer.parseInt(configuration.getProperty("topcompaniesbydisservice.ranking.size"));
 
@@ -120,27 +122,9 @@ public class TopCompaniesByDisservice {
                 /* Group by school bus company */
                 .keyBy(x -> x.f2);
 
-
-        delayAndReasonByCompany
-                 /* Compute a disservice score for each company during the last 24 hours */
-                .timeWindow(Time.hours(24))
-                .aggregate(new CompanyDisserviceScoreCalculator(), new WindowedCompanyDisserviceScoreCalculator())
-                 /* Compute the k companies with the highest disservice score */
-                .timeWindowAll(Time.hours(24))
-                .process(new TopKCompaniesByDisserviceScoreCalculator("topCompaniesByDisservice24h", topCompaniesRankingSize))
-                /* Set Kafka producer as stream sink */
-                .addSink(dailyTopCompaniesByDisserviceProducer);
-
-        delayAndReasonByCompany
-                /* Compute a disservice score for each company during the last 7 days */
-                .timeWindow(Time.days(7))
-                .aggregate(new CompanyDisserviceScoreCalculator(), new WindowedCompanyDisserviceScoreCalculator())
-                /* Compute the k companies with the highest disservice score */
-                .timeWindowAll(Time.days(7))
-                .process(new TopKCompaniesByDisserviceScoreCalculator("topCompaniesByDisservice7d", topCompaniesRankingSize))
-                /* Set Kafka producer as stream sink */
-                .addSink(weeklyTopCompaniesByDisserviceProducer);
-
+        /* Compute the worst bus companies by disservice during the last 24 hours, 7 days */
+        computeTopKCompaniesByDisservice(delayAndReasonByCompany, Time.hours(24), dailyTopCompaniesByDisserviceProducer, "topCompaniesByDisservice24h", topCompaniesRankingSize );
+        computeTopKCompaniesByDisservice(delayAndReasonByCompany, Time.days(7), weeklyTopCompaniesByDisserviceProducer, "topCompaniesByDisservice7d", topCompaniesRankingSize );
 
         env.execute("Top Companies By Disservice");
 

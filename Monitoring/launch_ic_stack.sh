@@ -5,6 +5,9 @@
 # Influx DB (I)
 # Chronograf (C)
 
+mkdir influxdb_data
+mkdir chronograf_data
+
 docker network create influxdb_chronograf_net
 
 # InfluxDB setup

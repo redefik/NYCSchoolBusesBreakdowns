@@ -1,0 +1,938 @@
+2015-09-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, 12:00-19:00
+2015-09-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Won`t Start
+2015-09-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2015-09-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Other, Heavy Traffic
+2015-09-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Delayed by School, Other, Mechanical Problem
+2015-09-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Delayed by School, Heavy Traffic, Mechanical Problem
+2015-09-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2015-09-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2015-09-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Other, Heavy Traffic
+2015-09-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem
+2015-09-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-09-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-09-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-09-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Mechanical Problem, Heavy Traffic
+2015-09-22T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Other, Mechanical Problem, Heavy Traffic
+2015-09-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Other
+2015-09-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Other, Mechanical Problem, Won`t Start
+2015-09-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-09-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2015-09-29T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2015-09-30T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Other, Mechanical Problem, Won`t Start
+2015-10-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2015-10-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Weather Conditions, Other
+2015-10-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2015-10-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Other, Heavy Traffic
+2015-10-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-10-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2015-10-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-10-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2015-10-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Other, Late return from Field Trip, Heavy Traffic
+2015-10-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2015-10-16T02:00:00.000, 05:00-11:59, Other, Heavy Traffic, Problem Run, 12:00-19:00, Other
+2015-10-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2015-10-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Heavy Traffic, Other
+2015-10-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-10-22T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-10-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Other
+2015-10-26T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2015-10-27T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-10-28T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2015-10-29T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2015-10-30T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2015-11-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2015-11-03T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Heavy Traffic, Accident
+2015-11-04T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-11-05T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2015-11-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Late return from Field Trip, Mechanical Problem
+2015-11-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2015-11-10T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2015-11-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Mechanical Problem, Late return from Field Trip
+2015-11-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2015-11-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2015-11-17T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-11-18T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2015-11-19T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2015-11-20T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-11-23T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Flat Tire
+2015-11-24T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2015-11-25T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2015-11-27T01:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00
+2015-11-30T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-12-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2015-12-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2015-12-03T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2015-12-04T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-12-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-12-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-12-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2015-12-10T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2015-12-11T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-12-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2015-12-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2015-12-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2015-12-17T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2015-12-18T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Other, Heavy Traffic
+2015-12-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2015-12-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2015-12-23T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Weather Conditions, Other
+2015-12-24T01:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00
+2015-12-28T01:00:00.000, 05:00-11:59, Other, Mechanical Problem, Heavy Traffic, 12:00-19:00, Other
+2015-12-29T01:00:00.000, 05:00-11:59, Weather Conditions, Mechanical Problem, 12:00-19:00, Other
+2015-12-30T01:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00, Heavy Traffic
+2015-12-31T01:00:00.000, 05:00-11:59, Mechanical Problem, 12:00-19:00, Heavy Traffic
+2016-01-04T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-01-05T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Other, Heavy Traffic
+2016-01-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Heavy Traffic, Won`t Start
+2016-01-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-01-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Won`t Start, Heavy Traffic, Mechanical Problem
+2016-01-11T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2016-01-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Mechanical Problem, Heavy Traffic
+2016-01-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Other, Heavy Traffic
+2016-01-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-01-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-01-19T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-01-20T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Heavy Traffic, Won`t Start
+2016-01-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-01-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-01-25T01:00:00.000, 05:00-11:59, Weather Conditions, Heavy Traffic, Other, 12:00-19:00, Weather Conditions, Heavy Traffic, Won`t Start
+2016-01-26T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-01-27T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-01-28T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-01-29T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-02-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-02-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Other, Heavy Traffic
+2016-02-03T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-02-04T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-02-05T01:00:00.000, 05:00-11:59, Weather Conditions, Heavy Traffic, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-02-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Heavy Traffic, Won`t Start
+2016-02-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-02-10T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2016-02-11T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2016-02-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2016-02-16T01:00:00.000, 05:00-11:59, Other, Weather Conditions, Mechanical Problem, 12:00-19:00, Mechanical Problem, Won`t Start, Weather Conditions
+2016-02-17T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic
+2016-02-18T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00
+2016-02-19T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Flat Tire, 12:00-19:00, Won`t Start, Other
+2016-02-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-02-23T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2016-02-24T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-02-25T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2016-02-26T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2016-02-29T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-03-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Heavy Traffic, Late return from Field Trip
+2016-03-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-03-03T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Flat Tire
+2016-03-04T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Late return from Field Trip, Other, Won`t Start
+2016-03-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Won`t Start, Heavy Traffic
+2016-03-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-03-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2016-03-10T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-03-11T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2016-03-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2016-03-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Flat Tire
+2016-03-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2016-03-17T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-03-18T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2016-03-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Other, Mechanical Problem, Heavy Traffic
+2016-03-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2016-03-23T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2016-03-24T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-03-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Mechanical Problem, Heavy Traffic, Other
+2016-03-29T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-03-30T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-03-31T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-04-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-04-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-04-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2016-04-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2016-04-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2016-04-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2016-04-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-04-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2016-04-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Mechanical Problem
+2016-04-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2016-04-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2016-04-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-04-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2016-04-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2016-04-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Mechanical Problem
+2016-04-22T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2016-04-25T02:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00, Heavy Traffic
+2016-04-26T02:00:00.000, 05:00-11:59, Won`t Start, 12:00-19:00, Other, Mechanical Problem
+2016-04-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, 12:00-19:00, Mechanical Problem
+2016-04-28T02:00:00.000, 05:00-11:59, Flat Tire, Mechanical Problem, Other, 12:00-19:00
+2016-04-29T02:00:00.000, 05:00-11:59, Won`t Start, Mechanical Problem, 12:00-19:00, Won`t Start
+2016-05-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Won`t Start, Late return from Field Trip
+2016-05-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2016-05-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2016-05-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2016-05-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2016-05-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2016-05-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2016-05-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Mechanical Problem
+2016-05-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Won`t Start
+2016-05-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2016-05-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2016-05-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2016-05-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2016-05-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Other
+2016-05-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2016-05-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Other
+2016-05-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Other
+2016-05-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Mechanical Problem
+2016-05-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2016-05-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Won`t Start
+2016-05-31T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Won`t Start
+2016-06-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Other
+2016-06-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Other
+2016-06-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2016-06-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Mechanical Problem
+2016-06-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Other
+2016-06-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2016-06-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Flat Tire, Heavy Traffic
+2016-06-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Mechanical Problem
+2016-06-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-06-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Mechanical Problem, Heavy Traffic, Other
+2016-06-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Heavy Traffic, Other
+2016-06-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2016-06-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-06-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-06-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-06-22T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-06-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Won`t Start, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-06-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-06-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2016-06-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Other, Accident
+2016-06-29T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem
+2016-06-30T02:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00, Other
+2016-07-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Won`t Start, 12:00-19:00, Heavy Traffic
+2016-07-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Mechanical Problem, Other, Heavy Traffic
+2016-07-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Flat Tire, Other
+2016-07-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Won`t Start, Other, Heavy Traffic
+2016-07-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-07-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2016-07-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2016-07-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2016-07-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2016-07-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2016-07-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-07-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-07-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2016-07-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2016-07-22T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-07-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2016-07-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-07-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2016-07-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-07-29T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-08-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Other, Heavy Traffic, Won`t Start
+2016-08-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Other, Heavy Traffic, Won`t Start
+2016-08-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2016-08-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2016-08-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-08-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Won`t Start
+2016-08-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2016-08-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Won`t Start, Weather Conditions
+2016-08-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Flat Tire, Won`t Start
+2016-08-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Won`t Start
+2016-08-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2016-08-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Flat Tire
+2016-08-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00
+2016-08-18T02:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00
+2016-08-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, 12:00-19:00
+2016-08-22T02:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00
+2016-08-23T02:00:00.000, 05:00-11:59, Other, Heavy Traffic, 12:00-19:00, Accident
+2016-08-24T02:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00, Heavy Traffic
+2016-08-26T02:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00
+2016-08-29T02:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00, Flat Tire
+2016-08-31T02:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00
+2016-09-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic
+2016-09-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Flat Tire, Problem Run, 12:00-19:00, Heavy Traffic
+2016-09-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2016-09-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Heavy Traffic, Won`t Start
+2016-09-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-09-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-09-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Mechanical Problem, Won`t Start, Heavy Traffic
+2016-09-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-09-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-09-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Flat Tire
+2016-09-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2016-09-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Mechanical Problem, Heavy Traffic, Other
+2016-09-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2016-09-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-09-22T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-09-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-09-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2016-09-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2016-09-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-09-29T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-09-30T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Won`t Start, Flat Tire
+2016-10-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Accident, Other
+2016-10-04T02:00:00.000, 05:00-11:59, Other, Heavy Traffic, Mechanical Problem, 12:00-19:00
+2016-10-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-10-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2016-10-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2016-10-10T02:00:00.000, 05:00-11:59, Flat Tire, 12:00-19:00
+2016-10-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-10-12T02:00:00.000, 05:00-11:59, Other, Heavy Traffic, Problem Run, 12:00-19:00, Other, Mechanical Problem, Won`t Start
+2016-10-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-10-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-10-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Mechanical Problem, Heavy Traffic, Won`t Start
+2016-10-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Heavy Traffic, Won`t Start
+2016-10-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2016-10-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-10-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-10-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Won`t Start
+2016-10-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2016-10-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Won`t Start, Heavy Traffic, Mechanical Problem
+2016-10-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-10-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2016-10-31T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Won`t Start
+2016-11-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2016-11-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2016-11-03T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-11-04T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2016-11-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-11-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Mechanical Problem, Other
+2016-11-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-11-10T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2016-11-11T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, 12:00-19:00
+2016-11-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2016-11-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-11-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2016-11-17T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-11-18T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2016-11-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-11-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-11-23T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-11-28T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-11-29T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2016-11-30T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Mechanical Problem
+2016-12-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-12-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2016-12-05T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-12-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2016-12-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-12-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2016-12-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-12-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-12-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-12-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2016-12-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2016-12-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2016-12-19T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-12-20T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2016-12-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2016-12-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2016-12-23T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2016-12-27T01:00:00.000, 05:00-11:59, Heavy Traffic, Won`t Start, Other, 12:00-19:00, Heavy Traffic
+2016-12-28T01:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00, Other
+2016-12-30T01:00:00.000, 05:00-11:59, 12:00-19:00, Heavy Traffic
+2017-01-03T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-01-04T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-01-05T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-01-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2017-01-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Won`t Start, Mechanical Problem, Heavy Traffic
+2017-01-10T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-01-11T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2017-01-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-01-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-01-17T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2017-01-18T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-01-19T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Heavy Traffic, Late return from Field Trip
+2017-01-20T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-01-23T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2017-01-24T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-01-25T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2017-01-26T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2017-01-27T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2017-01-30T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-01-31T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-02-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2017-02-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-02-03T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-02-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2017-02-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-02-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-02-10T01:00:00.000, 05:00-11:59, Weather Conditions, Heavy Traffic, Other, 12:00-19:00, Heavy Traffic, Weather Conditions, Other
+2017-02-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-02-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-02-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2017-02-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2017-02-17T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-02-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Won`t Start
+2017-02-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Flat Tire, Won`t Start, 12:00-19:00, Flat Tire, Heavy Traffic, Other
+2017-02-23T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other
+2017-02-24T01:00:00.000, 05:00-11:59, Other, Heavy Traffic, Won`t Start, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2017-02-27T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-02-28T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-03-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-03-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2017-03-03T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-03-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-03-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-03-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2017-03-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-03-10T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Weather Conditions, 12:00-19:00, Heavy Traffic, Other, Flat Tire
+2017-03-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-03-15T01:00:00.000, 05:00-11:59, Weather Conditions, Heavy Traffic, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-03-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-03-17T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2017-03-20T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2017-03-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-03-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-03-23T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-03-24T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-03-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-03-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Mechanical Problem
+2017-03-29T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-03-30T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-03-31T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Weather Conditions, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-04-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-04-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-04-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-04-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-04-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-04-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Won`t Start, 12:00-19:00, Other
+2017-04-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, 12:00-19:00, Heavy Traffic
+2017-04-12T02:00:00.000, 05:00-11:59, Other, Heavy Traffic, Mechanical Problem, 12:00-19:00, Heavy Traffic, Flat Tire, Mechanical Problem
+2017-04-13T02:00:00.000, 05:00-11:59, 12:00-19:00, Heavy Traffic
+2017-04-14T02:00:00.000, 05:00-11:59, Won`t Start, 12:00-19:00
+2017-04-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Flat Tire, Other, 12:00-19:00, Mechanical Problem
+2017-04-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Flat Tire, Mechanical Problem, Won`t Start
+2017-04-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2017-04-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-04-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2017-04-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-04-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-04-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2017-04-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2017-04-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-05-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-05-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-05-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-05-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-05-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Weather Conditions
+2017-05-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2017-05-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2017-05-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2017-05-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-05-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2017-05-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2017-05-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Late return from Field Trip
+2017-05-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-05-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2017-05-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-05-22T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-05-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-05-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-05-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-05-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-05-30T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-05-31T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-06-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-06-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-06-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Won`t Start, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2017-06-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2017-06-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-06-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2017-06-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2017-06-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-06-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2017-06-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-06-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-06-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-06-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-06-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-06-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Late return from Field Trip
+2017-06-22T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-06-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-06-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Flat Tire, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem
+2017-06-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-06-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Won`t Start, Heavy Traffic
+2017-06-29T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, 12:00-19:00
+2017-06-30T02:00:00.000, 05:00-11:59, 12:00-19:00, Heavy Traffic, Other
+2017-07-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2017-07-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2017-07-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-07-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-07-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2017-07-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2017-07-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-07-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2017-07-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2017-07-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Won`t Start
+2017-07-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2017-07-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Mechanical Problem, Heavy Traffic
+2017-07-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Flat Tire
+2017-07-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Other, Late return from Field Trip
+2017-07-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2017-07-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Heavy Traffic, Won`t Start
+2017-07-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-07-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Mechanical Problem, Won`t Start
+2017-07-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-07-31T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-08-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Won`t Start, Heavy Traffic, Other
+2017-08-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2017-08-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-08-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2017-08-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2017-09-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic
+2017-09-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2017-09-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Won`t Start, Heavy Traffic
+2017-09-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Won`t Start, Other
+2017-09-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Accident, Mechanical Problem
+2017-09-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-09-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-09-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-09-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-09-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-09-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-09-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-09-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-09-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Delayed by School, Other, Heavy Traffic
+2017-09-22T02:00:00.000, 05:00-11:59, Other, 12:00-19:00, Other, Mechanical Problem, Heavy Traffic
+2017-09-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-09-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-09-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-09-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-09-29T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-10-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2017-10-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-10-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-10-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-10-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-10-09T02:00:00.000, 05:00-11:59, 12:00-19:00, Mechanical Problem
+2017-10-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-10-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-10-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-10-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-10-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-10-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-10-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2017-10-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-10-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-10-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-10-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2017-10-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Flat Tire
+2017-10-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-10-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-10-30T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-10-31T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2017-11-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-11-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-11-03T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-11-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Heavy Traffic, Won`t Start
+2017-11-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-11-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-11-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-11-10T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-11-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-11-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-11-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2017-11-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Other, Flat Tire
+2017-11-17T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-11-20T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-11-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-11-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2017-11-27T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Mechanical Problem, Heavy Traffic, Won`t Start
+2017-11-28T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-11-29T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2017-11-30T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2017-12-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-12-04T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-12-05T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Accident
+2017-12-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2017-12-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2017-12-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-12-11T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-12-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2017-12-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-12-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2017-12-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2017-12-18T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2017-12-19T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2017-12-20T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2017-12-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2017-12-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Accident
+2017-12-26T01:00:00.000, 05:00-11:59, Other, Won`t Start, Heavy Traffic, 12:00-19:00, Mechanical Problem, Other
+2017-12-27T01:00:00.000, 05:00-11:59, Mechanical Problem, Other, Heavy Traffic, 12:00-19:00, Mechanical Problem
+2017-12-28T01:00:00.000, 05:00-11:59, Mechanical Problem, Other, 12:00-19:00, Accident, Heavy Traffic, Other
+2017-12-29T01:00:00.000, 05:00-11:59, Mechanical Problem, Heavy Traffic, 12:00-19:00
+2018-01-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Won`t Start, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-01-03T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-01-05T01:00:00.000, 05:00-11:59, Weather Conditions, Heavy Traffic, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-01-07T01:00:00.000, 05:00-11:59, Other, 12:00-19:00
+2018-01-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-01-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-01-10T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2018-01-11T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2018-01-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2018-01-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-01-17T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-01-18T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-01-19T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-01-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-01-23T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-01-24T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-01-25T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-01-26T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-01-29T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-01-30T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-01-31T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-02-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2018-02-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-02-05T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2018-02-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-02-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-02-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-02-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2018-02-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-02-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-02-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-02-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2018-02-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Weather Conditions, Other
+2018-02-20T01:00:00.000, 05:00-11:59, Mechanical Problem, Other, 12:00-19:00, Other
+2018-02-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00
+2018-02-22T01:00:00.000, 05:00-11:59, Mechanical Problem, 12:00-19:00, Other, Late return from Field Trip
+2018-02-23T01:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00, Other, Accident, Mechanical Problem
+2018-02-26T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-02-27T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2018-02-28T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-03-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-03-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Mechanical Problem, 12:00-19:00, Heavy Traffic, Weather Conditions, Other
+2018-03-05T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-03-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-03-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Weather Conditions
+2018-03-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2018-03-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-03-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-03-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-03-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-03-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-03-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-03-19T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-03-20T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2018-03-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-03-23T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2018-03-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-03-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2018-03-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-03-29T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2018-03-30T02:00:00.000, 05:00-11:59, Other, 12:00-19:00
+2018-04-02T02:00:00.000, 05:00-11:59, Weather Conditions, Mechanical Problem, Heavy Traffic, 12:00-19:00, Flat Tire, Heavy Traffic
+2018-04-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00
+2018-04-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic
+2018-04-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic
+2018-04-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other
+2018-04-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-04-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-04-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-04-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-04-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-04-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-04-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-04-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-04-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-04-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-04-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-04-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-04-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-04-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2018-04-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2018-04-30T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-05-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2018-05-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-05-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2018-05-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-05-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-05-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-05-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-05-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2018-05-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2018-05-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-05-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Won`t Start
+2018-05-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-05-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2018-05-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Won`t Start
+2018-05-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-05-22T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-05-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2018-05-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2018-05-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-05-29T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-05-30T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-05-31T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2018-06-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2018-06-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-06-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-06-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Mechanical Problem
+2018-06-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2018-06-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2018-06-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-06-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2018-06-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2018-06-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Late return from Field Trip, Heavy Traffic, Mechanical Problem
+2018-06-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Flat Tire, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2018-06-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-06-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Accident, Other, 12:00-19:00
+2018-06-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00
+2018-09-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem
+2018-09-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-09-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2018-09-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-09-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Mechanical Problem, Won`t Start, Weather Conditions
+2018-09-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other
+2018-09-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-09-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-09-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-09-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2018-09-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-09-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Other, Heavy Traffic
+2018-09-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-09-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2018-09-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-09-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2018-09-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-09-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-09-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-10-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-10-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2018-10-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-10-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-10-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-10-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-10-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-10-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-10-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-10-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-10-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-10-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-10-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-10-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-10-22T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-10-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-10-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2018-10-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-10-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-10-29T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-10-30T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-10-31T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-11-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-11-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-11-04T01:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00
+2018-11-05T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-11-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Weather Conditions
+2018-11-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-11-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Flat Tire
+2018-11-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-11-12T01:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00
+2018-11-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-11-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2018-11-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Weather Conditions, Other
+2018-11-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-11-19T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2018-11-20T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-11-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2018-11-23T01:00:00.000, 05:00-11:59, Mechanical Problem, Flat Tire, Heavy Traffic, 12:00-19:00
+2018-11-26T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-11-27T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-11-28T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2018-11-29T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2018-11-30T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2018-12-03T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Late return from Field Trip
+2018-12-04T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Mechanical Problem
+2018-12-05T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2018-12-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2018-12-07T01:00:00.000, 05:00-11:59, Other, Heavy Traffic, 12:00-19:00, Heavy Traffic, Other
+2018-12-10T01:00:00.000, 05:00-11:59, Other, Heavy Traffic, Flat Tire, 12:00-19:00, Other, Mechanical Problem
+2018-12-11T01:00:00.000, 05:00-11:59, Heavy Traffic, Flat Tire, Accident, 12:00-19:00, Flat Tire
+2018-12-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, 12:00-19:00, Mechanical Problem, Flat Tire, Won`t Start
+2018-12-13T01:00:00.000, 05:00-11:59, Mechanical Problem, Other, Heavy Traffic, 12:00-19:00, Other, Mechanical Problem
+2018-12-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Won`t Start
+2018-12-17T01:00:00.000, 05:00-11:59, Other, Heavy Traffic, Mechanical Problem, 12:00-19:00
+2018-12-18T01:00:00.000, 05:00-11:59, Mechanical Problem, Other, Heavy Traffic, 12:00-19:00, Mechanical Problem
+2018-12-19T01:00:00.000, 05:00-11:59, Other, Heavy Traffic, Accident, 12:00-19:00, Accident, Flat Tire, Other
+2018-12-20T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Flat Tire, 12:00-19:00, Mechanical Problem
+2018-12-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Other
+2018-12-26T01:00:00.000, 05:00-11:59, Won`t Start, 12:00-19:00
+2019-01-02T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Won`t Start
+2019-01-03T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-01-04T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-01-09T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-10T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-11T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-16T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic, Mechanical Problem
+2019-01-17T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-18T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-01-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Won`t Start, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-23T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-24T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-25T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-28T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-01-29T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-01-30T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2019-01-31T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Won`t Start, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2019-02-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-02-04T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2019-02-05T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem
+2019-02-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2019-02-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-02-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-02-11T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-02-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Weather Conditions, Mechanical Problem
+2019-02-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-02-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-02-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-02-19T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, 12:00-19:00, Flat Tire
+2019-02-20T01:00:00.000, 05:00-11:59, Flat Tire, Heavy Traffic, Other, 12:00-19:00, Heavy Traffic, Other, Accident
+2019-02-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Won`t Start, 12:00-19:00, Mechanical Problem, Heavy Traffic, Other
+2019-02-22T01:00:00.000, 05:00-11:59, Other, Heavy Traffic, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic
+2019-02-25T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-02-26T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-02-27T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-02-28T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-03-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Weather Conditions, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-03-05T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-03-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-03-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-03-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-03-11T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-03-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-03-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-03-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other
+2019-03-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-03-18T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-03-19T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-03-20T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Won`t Start
+2019-03-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2019-03-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-03-25T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-03-26T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-03-27T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-03-28T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-03-29T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-04-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-04-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-04-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2019-04-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-04-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-04-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-04-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-04-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-04-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-04-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Heavy Traffic
+2019-04-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Flat Tire, Other
+2019-04-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Flat Tire, Other, Heavy Traffic
+2019-04-17T02:00:00.000, 05:00-11:59, Other, Heavy Traffic, Flat Tire, 12:00-19:00, Other
+2019-04-18T02:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00, Heavy Traffic
+2019-04-22T02:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00
+2019-04-24T02:00:00.000, 05:00-11:59, Other, 12:00-19:00
+2019-04-29T02:00:00.000, 05:00-11:59, Heavy Traffic, 12:00-19:00
+2019-04-30T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, 12:00-19:00, Heavy Traffic
+2019-05-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Won`t Start
+2019-05-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, 12:00-19:00, Flat Tire, Mechanical Problem
+2019-05-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Mechanical Problem
+2019-05-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Won`t Start, 12:00-19:00, Heavy Traffic, Won`t Start, Other
+2019-05-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Won`t Start, 12:00-19:00, Mechanical Problem
+2019-05-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Other, Flat Tire, Won`t Start
+2019-05-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Flat Tire, Heavy Traffic, Accident
+2019-05-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Flat Tire
+2019-05-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Flat Tire, 12:00-19:00, Heavy Traffic, Mechanical Problem
+2019-05-14T02:00:00.000, 05:00-11:59, Other, Mechanical Problem, Heavy Traffic, 12:00-19:00, Other
+2019-05-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Flat Tire, Other, 12:00-19:00, Other
+2019-05-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Accident, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2019-05-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2019-05-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-05-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2019-05-22T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2019-05-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2019-05-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Delayed by School
+2019-05-28T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-05-29T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2019-05-30T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-05-31T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2019-06-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2019-06-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Won`t Start
+2019-06-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2019-06-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-06-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2019-06-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2019-06-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-06-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-06-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-06-14T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-06-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-06-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-06-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-06-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-06-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-06-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-06-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-06-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Mechanical Problem
+2019-06-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other
+2019-09-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Flat Tire, Mechanical Problem
+2019-09-05T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-06T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-12T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-13T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic
+2019-09-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-09-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-19T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-20T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-09-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-26T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-27T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-09-30T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Won`t Start, Flat Tire
+2019-10-01T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, 12:00-19:00
+2019-10-02T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-10-03T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-10-04T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-10-07T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-10-08T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-10-09T02:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Mechanical Problem, Heavy Traffic
+2019-10-10T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-10-11T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2019-10-15T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Won`t Start
+2019-10-16T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-10-17T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-10-18T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Problem Run, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2019-10-21T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-10-22T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-10-23T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-10-24T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other
+2019-10-25T02:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-10-28T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-10-29T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-10-30T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Mechanical Problem
+2019-10-31T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Weather Conditions, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-11-01T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-11-04T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-11-05T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Flat Tire, Mechanical Problem
+2019-11-06T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-11-07T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-11-08T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Late return from Field Trip
+2019-11-11T01:00:00.000, 05:00-11:59, Other, 12:00-19:00
+2019-11-12T01:00:00.000, 05:00-11:59, Heavy Traffic, Mechanical Problem, Other, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-11-13T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-11-14T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Mechanical Problem, Other
+2019-11-15T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-11-18T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-11-19T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-11-20T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-11-21T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-11-22T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Mechanical Problem
+2019-11-25T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Other, Late return from Field Trip
+2019-11-26T01:00:00.000, 05:00-11:59, Heavy Traffic, Other, Mechanical Problem, 12:00-19:00, Heavy Traffic, Late return from Field Trip, Other

@@ -1,0 +1,201 @@
+2015-08-27T02:00:00.000,Mar-Can Transportation,2.1,Boro Transit Inc.,2.0,New Dawn Transit LLC,1.9999999999999998,Logan Bus Company Inc.,1.8,Careful Bus,1.0
+2015-09-03T02:00:00.000,Pioneer Transportation,26.9,Reliant Transportation Inc.,26.4,G.V.C. LTD,24.6,Leesel Transportation Corp.,24.4,Boro Transit Inc.,19.200000000000003
+2015-09-10T02:00:00.000,Leesel Transportation Corp.,58.3,G.V.C. LTD,46.5,Pioneer Transportation,40.5,Reliant Transportation Inc.,31.299999999999997,IC Bus Inc.,27.6
+2015-09-17T02:00:00.000,G.V.C. LTD,78.0,Pioneer Transportation,43.9,Boro Transit Inc.,35.6,Leesel Transportation Corp.,33.3,New Dawn Transit LLC,26.7
+2015-09-24T02:00:00.000,G.V.C. LTD,50.599999999999994,Reliant Transportation Inc.,39.4,Pioneer Transportation,33.3,New Dawn Transit LLC,26.1,Mar-Can Transportation,23.7
+2015-10-01T02:00:00.000,G.V.C. LTD,78.3,Pioneer Transportation,55.99999999999999,New Dawn Transit LLC,37.0,L & M Bus Corp.,28.5,IC Bus Inc.,23.4
+2015-10-08T02:00:00.000,G.V.C. LTD,64.3,New Dawn Transit LLC,38.0,Pioneer Transportation,33.199999999999996,Mar-Can Transportation,33.0,L & M Bus Corp.,26.9
+2015-10-15T02:00:00.000,G.V.C. LTD,81.1,Leesel Transportation Corp.,50.199999999999996,New Dawn Transit LLC,39.8,Reliant Transportation Inc.,33.699999999999996,L & M Bus Corp.,33.5
+2015-10-22T02:00:00.000,G.V.C. LTD,86.3,Leesel Transportation Corp.,80.5,Pioneer Transportation,49.3,Boro Transit Inc.,36.5,New Dawn Transit LLC,36.2
+2015-10-29T01:00:00.000,Leesel Transportation Corp.,59.4,G.V.C. LTD,46.6,Pioneer Transportation,28.599999999999998,New Dawn Transit LLC,24.9,Boro Transit Inc.,19.0
+2015-11-05T01:00:00.000,Leesel Transportation Corp.,65.2,G.V.C. LTD,31.5,Pioneer Transportation,28.5,New Dawn Transit LLC,23.3,Boro Transit Inc.,17.2
+2015-11-12T01:00:00.000,Leesel Transportation Corp.,68.8,G.V.C. LTD,51.5,New Dawn Transit LLC,34.5,Reliant Transportation Inc.,33.7,Boro Transit Inc.,32.3
+2015-11-19T01:00:00.000,G.V.C. LTD,64.1,Leesel Transportation Corp.,60.0,New Dawn Transit LLC,49.1,Reliant Transportation Inc.,26.599999999999998,Pioneer Transportation,26.5
+2015-11-26T01:00:00.000,Leesel Transportation Corp.,41.800000000000004,G.V.C. LTD,41.7,Pioneer Transportation,31.8,Boro Transit Inc.,22.2,Reliant Transportation Inc.,20.5
+2015-12-03T01:00:00.000,G.V.C. LTD,70.3,Leesel Transportation Corp.,65.2,Reliant Transportation Inc.,31.099999999999998,New Dawn Transit LLC,29.8,Pioneer Transportation,28.3
+2015-12-10T01:00:00.000,G.V.C. LTD,66.4,Leesel Transportation Corp.,43.0,New Dawn Transit LLC,41.5,Pioneer Transportation,34.5,L & M Bus Corp.,24.7
+2015-12-17T01:00:00.000,G.V.C. LTD,60.8,New Dawn Transit LLC,58.599999999999994,Pioneer Transportation,33.8,Reliant Transportation Inc.,27.0,L & M Bus Corp.,15.8
+2015-12-24T01:00:00.000,Boro Transit Inc.,0.5,IC Bus Inc.,0.5,Leesel Transportation Corp.,0.3,B & F Skilled Inc.,0.3,New Dawn Transit LLC,0.3
+2015-12-31T01:00:00.000,IC Bus Inc.,39.4,Pioneer Transportation,32.3,New Dawn Transit LLC,31.1,G.V.C. LTD,30.299999999999997,Reliant Transportation Inc.,29.2
+2016-01-07T01:00:00.000,New Dawn Transit LLC,55.5,G.V.C. LTD,45.9,Pioneer Transportation,32.4,Leesel Transportation Corp.,29.5,Reliant Transportation Inc.,29.4
+2016-01-14T01:00:00.000,New Dawn Transit LLC,35.1,G.V.C. LTD,33.9,Pioneer Transportation,33.3,IC Bus Inc.,20.1,Reliant Transportation Inc.,16.7
+2016-01-21T01:00:00.000,Pioneer Transportation,128.20000000000002,G.V.C. LTD,82.2,New Dawn Transit LLC,72.30000000000001,Reliant Transportation Inc.,57.7,Don Thomas Buses Inc.,52.0
+2016-01-28T01:00:00.000,G.V.C. LTD,56.5,Pioneer Transportation,43.0,New Dawn Transit LLC,41.3,Reliant Transportation Inc.,34.7,IC Bus Inc.,23.1
+2016-02-04T01:00:00.000,G.V.C. LTD,46.6,Reliant Transportation Inc.,43.400000000000006,New Dawn Transit LLC,42.2,Pioneer Transportation,41.2,Leesel Transportation Corp.,26.3
+2016-02-11T01:00:00.000,G.V.C. LTD,22.8,IC Bus Inc.,14.0,Leesel Transportation Corp.,14.0,New Dawn Transit LLC,13.4,Pioneer Transportation,10.5
+2016-02-18T01:00:00.000,Reliant Transportation Inc.,28.7,New Dawn Transit LLC,26.299999999999997,Leesel Transportation Corp.,26.1,Pioneer Transportation,23.8,IC Bus Inc.,19.1
+2016-02-25T01:00:00.000,G.V.C. LTD,39.4,Reliant Transportation Inc.,38.4,New Dawn Transit LLC,30.9,Leesel Transportation Corp.,27.7,IC Bus Inc.,25.0
+2016-03-03T01:00:00.000,Reliant Transportation Inc.,39.5,New Dawn Transit LLC,36.0,G.V.C. LTD,30.7,Pioneer Transportation,26.400000000000002,Leesel Transportation Corp.,25.5
+2016-03-10T01:00:00.000,Pioneer Transportation,47.3,Reliant Transportation Inc.,43.699999999999996,Leesel Transportation Corp.,40.9,G.V.C. LTD,39.8,New Dawn Transit LLC,30.9
+2016-03-17T01:00:00.000,Reliant Transportation Inc.,39.9,New Dawn Transit LLC,39.3,G.V.C. LTD,35.7,Pioneer Transportation,28.700000000000003,Boro Transit Inc.,21.9
+2016-03-24T01:00:00.000,Reliant Transportation Inc.,36.49999999999999,New Dawn Transit LLC,36.4,G.V.C. LTD,34.2,Pioneer Transportation,18.299999999999997,IC Bus Inc.,17.2
+2016-03-31T02:00:00.000,New Dawn Transit LLC,54.0,G.V.C. LTD,45.49999999999999,Reliant Transportation Inc.,36.9,Leesel Transportation Corp.,33.9,Pioneer Transportation,31.9
+2016-04-07T02:00:00.000,Leesel Transportation Corp.,51.8,Reliant Transportation Inc.,41.4,G.V.C. LTD,39.0,New Dawn Transit LLC,34.2,Pioneer Transportation,32.0
+2016-04-14T02:00:00.000,Leesel Transportation Corp.,43.1,Reliant Transportation Inc.,40.2,New Dawn Transit LLC,37.7,Pioneer Transportation,31.2,G.V.C. LTD,27.900000000000002
+2016-04-21T02:00:00.000,Leesel Transportation Corp.,20.7,New Dawn Transit LLC,20.1,Reliant Transportation Inc.,15.5,Pioneer Transportation,14.7,G.V.C. LTD,10.0
+2016-04-28T02:00:00.000,Leesel Transportation Corp.,32.8,Pioneer Transportation,32.199999999999996,New Dawn Transit LLC,28.9,Reliant Transportation Inc.,28.0,Boro Transit Inc.,22.1
+2016-05-05T02:00:00.000,Leesel Transportation Corp.,46.8,Reliant Transportation Inc.,44.199999999999996,New Dawn Transit LLC,38.0,Pioneer Transportation,33.699999999999996,G.V.C. LTD,32.4
+2016-05-12T02:00:00.000,Leesel Transportation Corp.,51.49999999999999,New Dawn Transit LLC,43.5,Pioneer Transportation,40.0,G.V.C. LTD,39.7,Reliant Transportation Inc.,31.799999999999997
+2016-05-19T02:00:00.000,New Dawn Transit LLC,53.9,Leesel Transportation Corp.,46.599999999999994,Pioneer Transportation,45.9,G.V.C. LTD,42.7,Reliant Transportation Inc.,39.9
+2016-05-26T02:00:00.000,Reliant Transportation Inc.,48.2,Leesel Transportation Corp.,35.3,New Dawn Transit LLC,34.5,G.V.C. LTD,32.6,Pioneer Transportation,29.7
+2016-06-02T02:00:00.000,G.V.C. LTD,47.2,Leesel Transportation Corp.,43.1,New Dawn Transit LLC,41.800000000000004,Reliant Transportation Inc.,38.5,Pioneer Transportation,32.599999999999994
+2016-06-09T02:00:00.000,New Dawn Transit LLC,29.8,G.V.C. LTD,28.3,Leesel Transportation Corp.,25.8,Reliant Transportation Inc.,15.9,Pioneer Transportation,14.4
+2016-06-16T02:00:00.000,New Dawn Transit LLC,35.5,G.V.C. LTD,35.5,Reliant Transportation Inc.,25.9,Don Thomas Buses Inc.,17.1,Pioneer Transportation,17.1
+2016-06-23T02:00:00.000,New Dawn Transit LLC,24.6,Don Thomas Buses Inc.,13.0,Reliant Transportation Inc.,12.0,G.V.C. LTD,9.8,Pioneer Transportation,9.0
+2016-06-30T02:00:00.000,G.V.C. LTD,15.0,Hoyt Transportation Corp,7.300000000000001,L & M Bus Corp.,5.7,Pride Transportation Services,5.2,Reliant Transportation Inc.,4.3
+2016-07-07T02:00:00.000,Pride Transportation Services,43.800000000000004,Hoyt Transportation Corp,42.400000000000006,G.V.C. LTD,29.599999999999998,All American School Bus,16.5,Logan Bus Company Inc.,15.6
+2016-07-14T02:00:00.000,Pride Transportation Services,61.5,Hoyt Transportation Corp,43.5,G.V.C. LTD,30.400000000000002,Logan Bus Company Inc.,19.4,L & M Bus Corp.,15.700000000000001
+2016-07-21T02:00:00.000,Pride Transportation Services,57.800000000000004,Hoyt Transportation Corp,39.3,Logan Bus Company Inc.,22.299999999999997,G.V.C. LTD,20.700000000000003,Boro Transit Inc.,13.4
+2016-07-28T02:00:00.000,Pride Transportation Services,43.300000000000004,Hoyt Transportation Corp,34.5,G.V.C. LTD,17.1,IC Bus Inc.,14.399999999999999,Logan Bus Company Inc.,13.5
+2016-08-04T02:00:00.000,Pride Transportation Services,31.2,Hoyt Transportation Corp,30.5,G.V.C. LTD,15.399999999999999,Logan Bus Company Inc.,11.8,All American School Bus,9.7
+2016-08-11T02:00:00.000,Pride Transportation Services,15.9,Hoyt Transportation Corp,14.6,Lorinda Ent. Ltd.,8.999999999999998,L & M Bus Corp.,7.4,G.V.C. LTD,5.3999999999999995
+2016-08-18T02:00:00.000,Hoyt Transportation Corp,1.2,IC Bus Inc.,1.0,All American School Bus,0.8,Pride Transportation Services,0.6,Jofaz Transportation Inc.,0.6
+2016-08-25T02:00:00.000,Hoyt Transportation Corp,1.5,Lorinda Ent. Ltd.,0.3,Reliant Transportation Inc.,0.3,Pride Transportation Services,0.2
+2016-09-01T02:00:00.000,Reliant Transportation Inc.,19.7,Mar-Can Transportation,9.6,Thomas Buses Inc.,9.0,G.V.C. LTD,7.9,Leesel Transportation Corp.,5.0
+2016-09-08T02:00:00.000,Reliant Transportation Inc.,87.39999999999999,Pioneer Transportation,78.6,G.V.C. LTD,75.19999999999999,New Dawn Transit LLC,56.900000000000006,First Steps Transportation Inc.,36.2
+2016-09-15T02:00:00.000,G.V.C. LTD,101.2,Pioneer Transportation,82.2,Reliant Transportation Inc.,65.7,New Dawn Transit LLC,58.9,Leesel Transportation Corp.,43.1
+2016-09-22T02:00:00.000,G.V.C. LTD,104.69999999999999,Pioneer Transportation,83.19999999999999,New Dawn Transit LLC,81.5,Reliant Transportation Inc.,80.3,Leesel Transportation Corp.,44.0
+2016-09-29T02:00:00.000,New Dawn Transit LLC,53.8,G.V.C. LTD,52.300000000000004,Reliant Transportation Inc.,37.3,Pioneer Transportation,28.0,Leesel Transportation Corp.,24.799999999999997
+2016-10-06T02:00:00.000,New Dawn Transit LLC,64.2,G.V.C. LTD,56.199999999999996,Pioneer Transportation,31.8,Reliant Transportation Inc.,23.5,Leesel Transportation Corp.,22.999999999999996
+2016-10-13T02:00:00.000,G.V.C. LTD,93.10000000000001,New Dawn Transit LLC,55.3,Pioneer Transportation,47.3,Reliant Transportation Inc.,35.8,Leesel Transportation Corp.,27.5
+2016-10-20T02:00:00.000,Pioneer Transportation,68.5,New Dawn Transit LLC,67.1,G.V.C. LTD,65.8,Reliant Transportation Inc.,32.9,Van Trans LLC,28.9
+2016-10-27T02:00:00.000,G.V.C. LTD,68.6,Pioneer Transportation,67.39999999999999,New Dawn Transit LLC,55.599999999999994,Reliant Transportation Inc.,51.199999999999996,Leesel Transportation Corp.,30.5
+2016-11-03T01:00:00.000,G.V.C. LTD,59.0,New Dawn Transit LLC,44.0,Pioneer Transportation,36.4,Reliant Transportation Inc.,34.699999999999996,L & M Bus Corp.,21.5
+2016-11-10T01:00:00.000,New Dawn Transit LLC,53.5,G.V.C. LTD,47.4,Pioneer Transportation,42.1,Reliant Transportation Inc.,34.699999999999996,Leesel Transportation Corp.,30.2
+2016-11-17T01:00:00.000,New Dawn Transit LLC,66.8,G.V.C. LTD,63.89999999999999,Pioneer Transportation,45.3,Reliant Transportation Inc.,40.4,Leesel Transportation Corp.,27.2
+2016-11-24T01:00:00.000,New Dawn Transit LLC,61.1,G.V.C. LTD,38.0,Reliant Transportation Inc.,25.7,Pioneer Transportation,25.6,Leesel Transportation Corp.,23.9
+2016-12-01T01:00:00.000,New Dawn Transit LLC,87.5,G.V.C. LTD,72.39999999999999,Reliant Transportation Inc.,47.699999999999996,Pioneer Transportation,43.1,Mar-Can Transportation,39.699999999999996
+2016-12-08T01:00:00.000,New Dawn Transit LLC,112.39999999999999,G.V.C. LTD,60.49999999999999,Pioneer Transportation,50.0,Reliant Transportation Inc.,34.0,Leesel Transportation Corp.,24.099999999999998
+2016-12-15T01:00:00.000,New Dawn Transit LLC,116.39999999999999,G.V.C. LTD,65.3,Pioneer Transportation,51.599999999999994,Reliant Transportation Inc.,39.99999999999999,First Steps Transportation Inc.,28.200000000000003
+2016-12-22T01:00:00.000,New Dawn Transit LLC,32.2,G.V.C. LTD,17.4,Pioneer Transportation,12.899999999999999,Reliant Transportation Inc.,8.7,IC Bus Inc.,6.2
+2016-12-29T01:00:00.000,New Dawn Transit LLC,63.1,G.V.C. LTD,28.6,Reliant Transportation Inc.,16.5,L & M Bus Corp.,16.2,Boro Transit Inc.,15.0
+2017-01-05T01:00:00.000,New Dawn Transit LLC,174.79999999999998,G.V.C. LTD,82.5,Reliant Transportation Inc.,56.9,Pioneer Transportation,55.4,L & M Bus Corp.,35.6
+2017-01-12T01:00:00.000,New Dawn Transit LLC,136.5,G.V.C. LTD,84.6,Reliant Transportation Inc.,36.199999999999996,Leesel Transportation Corp.,33.300000000000004,Pioneer Transportation,29.2
+2017-01-19T01:00:00.000,New Dawn Transit LLC,118.89999999999999,G.V.C. LTD,92.39999999999999,Pioneer Transportation,39.9,Boro Transit Inc.,36.0,Reliant Transportation Inc.,33.0
+2017-01-26T01:00:00.000,G.V.C. LTD,83.9,New Dawn Transit LLC,56.3,Pioneer Transportation,44.5,Reliant Transportation Inc.,39.4,L & M Bus Corp.,26.9
+2017-02-02T01:00:00.000,G.V.C. LTD,102.6,Pioneer Transportation,42.7,Reliant Transportation Inc.,36.7,New Dawn Transit LLC,35.6,L & M Bus Corp.,29.6
+2017-02-09T01:00:00.000,G.V.C. LTD,86.29999999999998,Pioneer Transportation,63.4,Reliant Transportation Inc.,54.699999999999996,New Dawn Transit LLC,34.3,Boro Transit Inc.,33.5
+2017-02-16T01:00:00.000,G.V.C. LTD,31.6,New Dawn Transit LLC,18.199999999999996,Reliant Transportation Inc.,14.8,Boro Transit Inc.,13.600000000000001,Pioneer Transportation,12.0
+2017-02-23T01:00:00.000,G.V.C. LTD,49.599999999999994,Reliant Transportation Inc.,35.400000000000006,New Dawn Transit LLC,34.400000000000006,Pioneer Transportation,23.3,Boro Transit Inc.,20.7
+2017-03-02T01:00:00.000,G.V.C. LTD,57.599999999999994,Pioneer Transportation,37.9,Reliant Transportation Inc.,37.9,New Dawn Transit LLC,31.9,Leesel Transportation Corp.,29.9
+2017-03-09T01:00:00.000,Pioneer Transportation,65.80000000000001,G.V.C. LTD,50.599999999999994,New Dawn Transit LLC,41.0,Leesel Transportation Corp.,25.5,Boro Transit Inc.,22.9
+2017-03-16T01:00:00.000,G.V.C. LTD,96.7,Pioneer Transportation,77.3,Leesel Transportation Corp.,62.5,New Dawn Transit LLC,60.4,Don Thomas Buses Inc.,31.599999999999998
+2017-03-23T01:00:00.000,G.V.C. LTD,80.10000000000001,Leesel Transportation Corp.,63.39999999999999,Pioneer Transportation,62.8,New Dawn Transit LLC,41.89999999999999,Reliant Transportation Inc.,35.2
+2017-03-30T02:00:00.000,Leesel Transportation Corp.,112.1,Reliant Transportation Inc.,75.19999999999999,G.V.C. LTD,71.5,Pioneer Transportation,63.6,New Dawn Transit LLC,43.400000000000006
+2017-04-06T02:00:00.000,Leesel Transportation Corp.,45.49999999999999,G.V.C. LTD,28.7,Reliant Transportation Inc.,21.4,First Steps Transportation Inc.,17.1,Pioneer Transportation,16.6
+2017-04-13T02:00:00.000,Leesel Transportation Corp.,18.900000000000002,G.V.C. LTD,16.9,New Dawn Transit LLC,13.9,Reliant Transportation Inc.,13.7,Pioneer Transportation,11.9
+2017-04-20T02:00:00.000,Leesel Transportation Corp.,109.6,G.V.C. LTD,64.89999999999999,New Dawn Transit LLC,55.7,Reliant Transportation Inc.,48.7,Pioneer Transportation,44.4
+2017-04-27T02:00:00.000,Leesel Transportation Corp.,103.19999999999999,New Dawn Transit LLC,68.2,G.V.C. LTD,60.5,Pioneer Transportation,54.099999999999994,Reliant Transportation Inc.,51.699999999999996
+2017-05-04T02:00:00.000,Leesel Transportation Corp.,108.4,New Dawn Transit LLC,99.6,G.V.C. LTD,57.5,Pioneer Transportation,55.5,Reliant Transportation Inc.,46.0
+2017-05-11T02:00:00.000,Leesel Transportation Corp.,126.1,New Dawn Transit LLC,88.5,G.V.C. LTD,84.8,Pioneer Transportation,70.6,Reliant Transportation Inc.,64.5
+2017-05-18T02:00:00.000,Leesel Transportation Corp.,142.3,New Dawn Transit LLC,91.3,Pioneer Transportation,82.69999999999999,G.V.C. LTD,79.6,Reliant Transportation Inc.,71.5
+2017-05-25T02:00:00.000,Leesel Transportation Corp.,101.5,Pioneer Transportation,54.8,New Dawn Transit LLC,47.5,G.V.C. LTD,46.2,Reliant Transportation Inc.,40.4
+2017-06-01T02:00:00.000,Leesel Transportation Corp.,106.10000000000001,New Dawn Transit LLC,83.7,Pioneer Transportation,59.1,G.V.C. LTD,54.1,Reliant Transportation Inc.,44.199999999999996
+2017-06-08T02:00:00.000,Leesel Transportation Corp.,95.2,G.V.C. LTD,57.99999999999999,New Dawn Transit LLC,34.099999999999994,Reliant Transportation Inc.,32.3,Pioneer Transportation,32.3
+2017-06-15T02:00:00.000,Leesel Transportation Corp.,98.60000000000001,G.V.C. LTD,63.8,New Dawn Transit LLC,55.9,Pioneer Transportation,48.5,Reliant Transportation Inc.,33.0
+2017-06-22T02:00:00.000,Leesel Transportation Corp.,56.4,G.V.C. LTD,39.5,Pioneer Transportation,34.5,New Dawn Transit LLC,32.7,Reliant Transportation Inc.,27.3
+2017-06-29T02:00:00.000,Reliant Transportation Inc.,23.5,Hoyt Transportation Corp,10.7,G.V.C. LTD,7.5,L & M Bus Corp.,6.6,Pioneer Transportation,5.3999999999999995
+2017-07-06T02:00:00.000,G.V.C. LTD,50.800000000000004,Hoyt Transportation Corp,31.1,Pride Transportation Services,16.2,L & M Bus Corp.,14.3,All American School Bus,13.2
+2017-07-13T02:00:00.000,Pride Transportation Services,28.9,G.V.C. LTD,27.4,Hoyt Transportation Corp,24.0,L & M Bus Corp.,13.3,Reliant Transportation Inc.,12.9
+2017-07-20T02:00:00.000,G.V.C. LTD,33.4,Pride Transportation Services,31.0,Hoyt Transportation Corp,27.200000000000003,Reliant Transportation Inc.,16.5,L & M Bus Corp.,16.400000000000002
+2017-07-27T02:00:00.000,Pride Transportation Services,33.3,Hoyt Transportation Corp,21.499999999999996,G.V.C. LTD,20.4,Reliant Transportation Inc.,13.6,L & M Bus Corp.,12.5
+2017-08-03T02:00:00.000,Pride Transportation Services,19.7,Hoyt Transportation Corp,13.9,G.V.C. LTD,10.4,All American School Bus,6.2,L & M Bus Corp.,5.800000000000001
+2017-08-31T02:00:00.000,Reliant Transportation Inc.,23.2,Leesel Transportation Corp.,7.3999999999999995,Logan Bus Company Inc.,5.1,L & M Bus Corp.,3.8,B & F Skilled Inc.,3.1
+2017-09-07T02:00:00.000,Reliant Transportation Inc.,276.59999999999997,Leesel Transportation Corp.,146.9,Pioneer Transportation,64.7,Van Trans LLC,30.3,L & M Bus Corp.,27.700000000000003
+2017-09-14T02:00:00.000,Leesel Transportation Corp.,317.40000000000003,Reliant Transportation Inc.,187.89999999999998,Pioneer Transportation,74.69999999999999,New Dawn Transit LLC,53.6,G.V.C. LTD,46.5
+2017-09-21T02:00:00.000,Leesel Transportation Corp.,229.89999999999998,Reliant Transportation Inc.,114.69999999999999,Pioneer Transportation,53.6,G.V.C. LTD,41.599999999999994,Boro Transit Inc.,20.8
+2017-09-28T02:00:00.000,Leesel Transportation Corp.,366.7,Reliant Transportation Inc.,175.7,Pioneer Transportation,72.7,New Dawn Transit LLC,54.0,Van Trans LLC,41.099999999999994
+2017-10-05T02:00:00.000,Leesel Transportation Corp.,285.4,Reliant Transportation Inc.,66.4,Pioneer Transportation,61.099999999999994,G.V.C. LTD,35.99999999999999,New Dawn Transit LLC,29.799999999999997
+2017-10-12T02:00:00.000,Leesel Transportation Corp.,218.79999999999998,Reliant Transportation Inc.,122.7,Pioneer Transportation,85.60000000000001,G.V.C. LTD,52.8,New Dawn Transit LLC,33.400000000000006
+2017-10-19T02:00:00.000,Leesel Transportation Corp.,279.9,Reliant Transportation Inc.,133.9,Pioneer Transportation,87.3,G.V.C. LTD,74.8,New Dawn Transit LLC,35.0
+2017-10-26T02:00:00.000,Leesel Transportation Corp.,267.3,Reliant Transportation Inc.,94.3,Pioneer Transportation,83.0,G.V.C. LTD,67.5,Van Trans LLC,38.5
+2017-11-02T01:00:00.000,Leesel Transportation Corp.,132.7,Reliant Transportation Inc.,49.6,G.V.C. LTD,41.800000000000004,Pioneer Transportation,23.3,New Dawn Transit LLC,22.0
+2017-11-09T01:00:00.000,Leesel Transportation Corp.,228.0,Reliant Transportation Inc.,112.99999999999999,Pioneer Transportation,82.6,G.V.C. LTD,62.1,Boro Transit Inc.,40.3
+2017-11-16T01:00:00.000,Leesel Transportation Corp.,189.2,Reliant Transportation Inc.,76.4,Pioneer Transportation,66.1,G.V.C. LTD,43.9,Van Trans LLC,31.3
+2017-11-23T01:00:00.000,Leesel Transportation Corp.,104.8,Reliant Transportation Inc.,45.4,Pioneer Transportation,41.9,G.V.C. LTD,28.4,Boro Transit Inc.,19.900000000000002
+2017-11-30T01:00:00.000,Leesel Transportation Corp.,165.70000000000002,Pioneer Transportation,75.1,Reliant Transportation Inc.,54.699999999999996,Van Trans LLC,51.199999999999996,G.V.C. LTD,36.4
+2017-12-07T01:00:00.000,Leesel Transportation Corp.,250.39999999999998,Pioneer Transportation,93.89999999999999,Reliant Transportation Inc.,83.10000000000001,G.V.C. LTD,53.1,Van Trans LLC,50.3
+2017-12-14T01:00:00.000,Leesel Transportation Corp.,329.9,Pioneer Transportation,152.1,Reliant Transportation Inc.,145.7,Van Trans LLC,81.4,G.V.C. LTD,71.8
+2017-12-21T01:00:00.000,Leesel Transportation Corp.,101.5,Reliant Transportation Inc.,30.4,Pioneer Transportation,29.799999999999997,New Dawn Transit LLC,20.200000000000003,Van Trans LLC,18.799999999999997
+2017-12-28T01:00:00.000,Leesel Transportation Corp.,49.099999999999994,Pioneer Transportation,42.4,Reliant Transportation Inc.,31.2,New Dawn Transit LLC,24.2,Boro Transit Inc.,22.8
+2018-01-04T01:00:00.000,Leesel Transportation Corp.,127.1,Pioneer Transportation,102.0,Reliant Transportation Inc.,92.39999999999999,SNT Bus Inc.,80.6,Boro Transit Inc.,66.1
+2018-01-11T01:00:00.000,Leesel Transportation Corp.,160.2,Pioneer Transportation,64.89999999999999,Reliant Transportation Inc.,49.7,New Dawn Transit LLC,34.4,Van Trans LLC,25.7
+2018-01-18T01:00:00.000,Leesel Transportation Corp.,245.1,Pioneer Transportation,104.0,Reliant Transportation Inc.,69.8,Van Trans LLC,48.3,New Dawn Transit LLC,34.3
+2018-01-25T01:00:00.000,Leesel Transportation Corp.,173.0,Reliant Transportation Inc.,90.10000000000001,Pioneer Transportation,83.1,L & M Bus Corp.,34.900000000000006,Careful Bus,32.699999999999996
+2018-02-01T01:00:00.000,Leesel Transportation Corp.,117.19999999999999,Pioneer Transportation,63.6,Reliant Transportation Inc.,52.5,IC Bus Inc.,26.9,Boro Transit Inc.,23.900000000000002
+2018-02-08T01:00:00.000,Leesel Transportation Corp.,111.89999999999999,Reliant Transportation Inc.,71.80000000000001,Pioneer Transportation,68.19999999999999,G.V.C. LTD,37.3,Boro Transit Inc.,36.2
+2018-02-15T01:00:00.000,Leesel Transportation Corp.,37.8,Reliant Transportation Inc.,21.9,Pioneer Transportation,20.1,IC Bus Inc.,16.5,First Steps Transportation Inc.,14.3
+2018-02-22T01:00:00.000,Leesel Transportation Corp.,133.49999999999997,Reliant Transportation Inc.,72.0,Pioneer Transportation,59.2,Boro Transit Inc.,47.1,G.V.C. LTD,34.0
+2018-03-01T01:00:00.000,Leesel Transportation Corp.,240.29999999999998,Reliant Transportation Inc.,137.2,Pioneer Transportation,135.9,G.V.C. LTD,52.7,Boro Transit Inc.,44.4
+2018-03-08T01:00:00.000,Leesel Transportation Corp.,272.7,Reliant Transportation Inc.,151.2,Pioneer Transportation,111.1,G.V.C. LTD,72.4,Boro Transit Inc.,48.699999999999996
+2018-03-15T01:00:00.000,Leesel Transportation Corp.,251.39999999999998,Reliant Transportation Inc.,103.7,Pioneer Transportation,92.9,G.V.C. LTD,47.199999999999996,Boro Transit Inc.,37.2
+2018-03-22T01:00:00.000,Leesel Transportation Corp.,269.29999999999995,Reliant Transportation Inc.,116.7,Pioneer Transportation,107.30000000000001,G.V.C. LTD,53.599999999999994,L & M Bus Corp.,45.800000000000004
+2018-03-29T02:00:00.000,Leesel Transportation Corp.,42.9,Pioneer Transportation,18.6,Reliant Transportation Inc.,10.3,Boro Transit Inc.,8.7,G.V.C. LTD,6.2
+2018-04-05T02:00:00.000,Leesel Transportation Corp.,114.99999999999999,Reliant Transportation Inc.,82.3,Pioneer Transportation,64.7,First Steps Transportation Inc.,48.5,Boro Transit Inc.,35.0
+2018-04-12T02:00:00.000,Leesel Transportation Corp.,251.3,Reliant Transportation Inc.,95.99999999999999,Pioneer Transportation,76.5,G.V.C. LTD,42.6,Boro Transit Inc.,34.699999999999996
+2018-04-19T02:00:00.000,Leesel Transportation Corp.,238.9,Reliant Transportation Inc.,133.6,Pioneer Transportation,97.3,G.V.C. LTD,60.0,Van Trans LLC,45.599999999999994
+2018-04-26T02:00:00.000,Leesel Transportation Corp.,296.0,Pioneer Transportation,129.9,Reliant Transportation Inc.,119.9,G.V.C. LTD,78.5,Van Trans LLC,54.599999999999994
+2018-05-03T02:00:00.000,Leesel Transportation Corp.,216.6,Reliant Transportation Inc.,141.39999999999998,Pioneer Transportation,74.9,G.V.C. LTD,53.0,Van Trans LLC,39.699999999999996
+2018-05-10T02:00:00.000,Leesel Transportation Corp.,199.79999999999998,Reliant Transportation Inc.,102.89999999999999,Pioneer Transportation,79.8,G.V.C. LTD,57.4,New Dawn Transit LLC,40.2
+2018-05-17T02:00:00.000,Leesel Transportation Corp.,198.2,Reliant Transportation Inc.,138.2,Pioneer Transportation,89.5,G.V.C. LTD,48.800000000000004,Selby Transportation Corp.,46.8
+2018-05-24T02:00:00.000,Leesel Transportation Corp.,115.2,Reliant Transportation Inc.,91.4,Pioneer Transportation,66.8,Selby Transportation Corp.,36.0,G.V.C. LTD,35.699999999999996
+2018-05-31T02:00:00.000,Leesel Transportation Corp.,171.2,Reliant Transportation Inc.,158.79999999999998,Pioneer Transportation,84.3,Selby Transportation Corp.,44.1,Van Trans LLC,43.6
+2018-06-07T02:00:00.000,Leesel Transportation Corp.,197.8,Reliant Transportation Inc.,93.1,Pioneer Transportation,70.7,New Dawn Transit LLC,36.0,Selby Transportation Corp.,34.6
+2018-06-14T02:00:00.000,Leesel Transportation Corp.,104.39999999999999,Reliant Transportation Inc.,87.5,Pioneer Transportation,51.0,G.V.C. LTD,33.699999999999996,Boro Transit Inc.,27.5
+2018-06-21T02:00:00.000,Reliant Transportation Inc.,18.2,Leesel Transportation Corp.,12.6,Pioneer Transportation,11.9,Van Trans LLC,5.3999999999999995,New Dawn Transit LLC,4.5
+2018-08-30T02:00:00.000,Reliant Transportation Inc.,81.5,Pioneer Transportation,22.9,New Dawn Transit LLC,16.8,Boro Transit Inc.,15.6,Hoyt Transportation Corp,14.7
+2018-09-06T02:00:00.000,Reliant Transportation Inc.,169.5,Leesel Transportation Corp.,115.10000000000001,New Dawn Transit LLC,65.8,Pioneer Transportation,51.8,Boro Transit Inc.,42.6
+2018-09-13T02:00:00.000,Leesel Transportation Corp.,426.29999999999995,Reliant Transportation Inc.,160.0,Pioneer Transportation,64.69999999999999,G.V.C. LTD,51.4,Selby Transportation Corp.,46.4
+2018-09-20T02:00:00.000,Leesel Transportation Corp.,485.09999999999997,Reliant Transportation Inc.,151.89999999999998,Selby Transportation Corp.,59.4,Pioneer Transportation,54.9,G.V.C. LTD,49.3
+2018-09-27T02:00:00.000,Leesel Transportation Corp.,208.6,Reliant Transportation Inc.,76.60000000000001,G.V.C. LTD,26.799999999999997,Boro Transit Inc.,23.8,Y & M Transit Corp.,22.0
+2018-10-04T02:00:00.000,Leesel Transportation Corp.,173.6,Reliant Transportation Inc.,41.4,Boro Transit Inc.,29.700000000000003,G.V.C. LTD,14.9,Pioneer Transportation,14.5
+2018-10-11T02:00:00.000,Leesel Transportation Corp.,444.7,Reliant Transportation Inc.,117.89999999999999,G.V.C. LTD,60.8,Selby Transportation Corp.,52.4,IC Bus Inc.,51.9
+2018-10-18T02:00:00.000,Leesel Transportation Corp.,740.1999999999999,Reliant Transportation Inc.,187.2,G.V.C. LTD,113.2,Selby Transportation Corp.,93.0,Pioneer Transportation,83.1
+2018-10-25T02:00:00.000,Leesel Transportation Corp.,540.5999999999999,Reliant Transportation Inc.,156.5,G.V.C. LTD,107.4,Selby Transportation Corp.,65.8,Boro Transit Inc.,62.0
+2018-11-01T01:00:00.000,Leesel Transportation Corp.,709.2,Reliant Transportation Inc.,188.1,G.V.C. LTD,95.8,Selby Transportation Corp.,69.6,Boro Transit Inc.,64.3
+2018-11-08T01:00:00.000,Leesel Transportation Corp.,745.1999999999999,Reliant Transportation Inc.,215.9,Selby Transportation Corp.,100.19999999999999,G.V.C. LTD,99.39999999999999,Pioneer Transportation,83.8
+2018-11-15T01:00:00.000,Leesel Transportation Corp.,876.4999999999999,Reliant Transportation Inc.,296.59999999999997,Selby Transportation Corp.,154.70000000000002,Pioneer Transportation,152.29999999999998,Boro Transit Inc.,141.79999999999998
+2018-11-22T01:00:00.000,Leesel Transportation Corp.,685.8000000000001,Reliant Transportation Inc.,150.6,Selby Transportation Corp.,91.8,Boro Transit Inc.,69.5,Pioneer Transportation,60.8
+2018-11-29T01:00:00.000,Leesel Transportation Corp.,481.4,Reliant Transportation Inc.,100.3,Selby Transportation Corp.,66.6,Boro Transit Inc.,65.7,Pioneer Transportation,56.1
+2018-12-06T01:00:00.000,Selby Transportation Corp.,3.0,G.V.C. LTD,2.1,L & M Bus Corp.,2.1,Leesel Transportation Corp.,1.7999999999999998,Boro Transit Inc.,1.0
+2018-12-13T01:00:00.000,G.V.C. LTD,5.0,L & M Bus Corp.,1.2000000000000002,Van Trans LLC,0.7,SNT Bus Inc.,0.6000000000000001,Reliant Transportation Inc.,0.6
+2018-12-20T01:00:00.000,G.V.C. LTD,3.3,Selby Transportation Corp.,2.4,Pioneer Transportation,0.6,Leesel Transportation Corp.,0.6,L & M Bus Corp.,0.4
+2018-12-27T01:00:00.000,Selby Transportation Corp.,1.2,Van Trans LLC,0.6,New Dawn Transit LLC,0.4,L & M Bus Corp.,0.4,I & Y Transit Corp,0.4
+2019-01-03T01:00:00.000,Leesel Transportation Corp.,441.5,Reliant Transportation Inc.,89.8,Selby Transportation Corp.,61.0,New Dawn Transit LLC,45.1,G.V.C. LTD,40.4
+2019-01-10T01:00:00.000,Leesel Transportation Corp.,485.8,Reliant Transportation Inc.,118.8,Selby Transportation Corp.,73.0,Boro Transit Inc.,57.400000000000006,New Dawn Transit LLC,57.300000000000004
+2019-01-17T01:00:00.000,Leesel Transportation Corp.,440.9,Reliant Transportation Inc.,92.2,Selby Transportation Corp.,63.4,Boro Transit Inc.,47.8,Pioneer Transportation,35.9
+2019-01-24T01:00:00.000,Leesel Transportation Corp.,1015.0,Reliant Transportation Inc.,219.0,Selby Transportation Corp.,148.79999999999998,G.V.C. LTD,124.8,Pioneer Transportation,64.7
+2019-01-31T01:00:00.000,Leesel Transportation Corp.,1009.1,Reliant Transportation Inc.,213.2,Pioneer Transportation,156.8,Selby Transportation Corp.,139.2,Boro Transit Inc.,127.1
+2019-02-07T01:00:00.000,Leesel Transportation Corp.,656.4,Reliant Transportation Inc.,179.1,Selby Transportation Corp.,97.0,G.V.C. LTD,92.7,Boro Transit Inc.,59.5
+2019-02-14T01:00:00.000,Leesel Transportation Corp.,235.5,G.V.C. LTD,54.599999999999994,Selby Transportation Corp.,44.199999999999996,Reliant Transportation Inc.,42.199999999999996,Pioneer Transportation,20.0
+2019-02-21T01:00:00.000,Leesel Transportation Corp.,347.5,Reliant Transportation Inc.,89.6,Selby Transportation Corp.,64.60000000000001,G.V.C. LTD,59.0,Pioneer Transportation,46.8
+2019-02-28T01:00:00.000,Leesel Transportation Corp.,510.1,Reliant Transportation Inc.,135.59999999999997,G.V.C. LTD,89.19999999999999,Selby Transportation Corp.,85.60000000000001,Pioneer Transportation,51.2
+2019-03-07T01:00:00.000,Leesel Transportation Corp.,562.9,Reliant Transportation Inc.,146.29999999999998,Selby Transportation Corp.,96.39999999999999,G.V.C. LTD,86.39999999999999,Boro Transit Inc.,56.3
+2019-03-14T01:00:00.000,Leesel Transportation Corp.,477.99999999999994,Reliant Transportation Inc.,111.7,Selby Transportation Corp.,70.89999999999999,G.V.C. LTD,68.3,Boro Transit Inc.,45.599999999999994
+2019-03-21T01:00:00.000,Leesel Transportation Corp.,507.79999999999995,Reliant Transportation Inc.,151.8,Selby Transportation Corp.,72.5,G.V.C. LTD,71.2,Boro Transit Inc.,55.2
+2019-03-28T01:00:00.000,Leesel Transportation Corp.,246.0,Reliant Transportation Inc.,146.29999999999998,G.V.C. LTD,88.5,Selby Transportation Corp.,60.99999999999999,Boro Transit Inc.,58.7
+2019-04-04T02:00:00.000,Leesel Transportation Corp.,251.7,Reliant Transportation Inc.,162.39999999999998,Pioneer Transportation,75.3,G.V.C. LTD,73.3,Selby Transportation Corp.,55.199999999999996
+2019-04-11T02:00:00.000,Leesel Transportation Corp.,58.5,Reliant Transportation Inc.,28.2,Pioneer Transportation,13.9,Selby Transportation Corp.,13.2,SNT Bus Inc.,13.1
+2019-04-18T02:00:00.000,G.V.C. LTD,1.4,Selby Transportation Corp.,0.6,Leesel Transportation Corp.,0.6,Empire State Bus Corp.,0.3,SNT Bus Inc.,0.2
+2019-04-25T02:00:00.000,G.V.C. LTD,2.1,Don Thomas Buses Inc.,0.8999999999999999,Another Ride Inc.,0.6,Boro Transit Inc.,0.5,M.J.T. Bus Company,0.4
+2019-05-02T02:00:00.000,G.V.C. LTD,5.4,Selby Transportation Corp.,3.5999999999999996,Don Thomas Buses Inc.,1.2,Leesel Transportation Corp.,0.6,New Dawn Transit LLC,0.4
+2019-05-09T02:00:00.000,G.V.C. LTD,4.9,Selby Transportation Corp.,1.7999999999999998,Leesel Transportation Corp.,1.7999999999999998,I & Y Transit Corp,1.2000000000000002,Boro Transit Inc.,1.2
+2019-05-16T02:00:00.000,Leesel Transportation Corp.,284.1,Reliant Transportation Inc.,123.8,Pioneer Transportation,60.5,Selby Transportation Corp.,54.0,G.V.C. LTD,52.8
+2019-05-23T02:00:00.000,Leesel Transportation Corp.,234.79999999999998,Reliant Transportation Inc.,122.4,Selby Transportation Corp.,60.99999999999999,Pioneer Transportation,57.3,G.V.C. LTD,40.2
+2019-05-30T02:00:00.000,Leesel Transportation Corp.,219.1,Reliant Transportation Inc.,110.8,Selby Transportation Corp.,64.2,Pioneer Transportation,63.3,Boro Transit Inc.,52.5
+2019-06-06T02:00:00.000,Leesel Transportation Corp.,242.4,Reliant Transportation Inc.,73.9,Selby Transportation Corp.,55.0,G.V.C. LTD,50.4,Boro Transit Inc.,46.5
+2019-06-13T02:00:00.000,Leesel Transportation Corp.,265.0,Selby Transportation Corp.,81.8,Reliant Transportation Inc.,73.3,G.V.C. LTD,63.4,Pioneer Transportation,55.0
+2019-06-20T02:00:00.000,Leesel Transportation Corp.,236.2,G.V.C. LTD,64.1,Selby Transportation Corp.,57.0,Reliant Transportation Inc.,49.5,New Dawn Transit LLC,43.800000000000004
+2019-06-27T02:00:00.000,Selby Transportation Corp.,2.4,L & M Bus Corp.,1.4,Don Thomas Buses Inc.,0.6,G.V.C. LTD,0.3,Boro Transit Inc.,0.2
+2019-08-29T02:00:00.000,Reliant Transportation Inc.,40.300000000000004,Leesel Transportation Corp.,26.9,Boro Transit Inc.,14.6,L & M Bus Corp.,14.0,Pride Transportation Services,12.4
+2019-09-05T02:00:00.000,Reliant Transportation Inc.,444.59999999999997,Leesel Transportation Corp.,299.3,Pioneer Transportation,161.8,Boro Transit Inc.,153.3,First Steps Transportation Inc.,103.6
+2019-09-12T02:00:00.000,Leesel Transportation Corp.,419.79999999999995,Reliant Transportation Inc.,234.39999999999998,Pioneer Transportation,86.19999999999999,Boro Transit Inc.,78.2,G.V.C. LTD,70.0
+2019-09-19T02:00:00.000,Leesel Transportation Corp.,644.2,Reliant Transportation Inc.,250.0,Boro Transit Inc.,116.9,G.V.C. LTD,97.0,Pioneer Transportation,87.0
+2019-09-26T02:00:00.000,Leesel Transportation Corp.,359.5,Reliant Transportation Inc.,155.3,G.V.C. LTD,48.900000000000006,Pioneer Transportation,47.8,Boro Transit Inc.,46.099999999999994
+2019-10-03T02:00:00.000,Leesel Transportation Corp.,524.9,Reliant Transportation Inc.,195.4,G.V.C. LTD,69.2,Boro Transit Inc.,66.4,Pride Transportation Services,51.0
+2019-10-10T02:00:00.000,Leesel Transportation Corp.,493.59999999999997,Reliant Transportation Inc.,174.9,Boro Transit Inc.,79.3,G.V.C. LTD,62.5,Empire Charter Service Inc.,44.6
+2019-10-17T02:00:00.000,Leesel Transportation Corp.,717.5999999999999,Reliant Transportation Inc.,201.3,G.V.C. LTD,119.0,Boro Transit Inc.,86.1,Pioneer Transportation,54.7
+2019-10-24T02:00:00.000,Leesel Transportation Corp.,740.8,Reliant Transportation Inc.,313.09999999999997,Boro Transit Inc.,124.19999999999999,Pioneer Transportation,88.80000000000001,G.V.C. LTD,83.0
+2019-10-31T01:00:00.000,Leesel Transportation Corp.,488.2,Reliant Transportation Inc.,275.3,Boro Transit Inc.,93.8,G.V.C. LTD,91.89999999999999,Pioneer Transportation,70.8
+2019-11-07T01:00:00.000,Leesel Transportation Corp.,301.5,Reliant Transportation Inc.,156.6,Boro Transit Inc.,78.6,SNT Bus Inc.,63.599999999999994,G.V.C. LTD,51.4
+2019-11-14T01:00:00.000,Leesel Transportation Corp.,659.1,Reliant Transportation Inc.,236.2,Boro Transit Inc.,139.8,G.V.C. LTD,91.0,SNT Bus Inc.,64.6

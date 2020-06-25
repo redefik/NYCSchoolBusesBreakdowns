@@ -12,7 +12,7 @@ The query answered are the following:
  
 ![Architecture Overview](Architecture.png)
 
-The datastream is processed on an EMR cluster using Apache Flink and Hadoop YARN as resource manager. Flink consumes the input record from a Kafka topic and inserts the output records into another Kafka topic. The Kafka server is executed on a EC2 instance. The records are producted from an external system (StreamSimulator). During the execution, Flink collects some performance metrics and sends them to another EC2 instance. A docker network including InfluxDB and Chronograp is deployed on this instance in order to offer a graphic visualization of the collected metrics.
+The datastream is processed on an EMR cluster using Apache Flink and Hadoop YARN as resource manager. Flink consumes the input record from a Kafka topic and inserts the output records into another Kafka topic. The Kafka server is executed on a EC2 instance. The records are producted from an external system (StreamSimulator). During the execution, Flink collects some performance metrics and sends them to another EC2 instance. A docker network including InfluxDB and Chronograf is deployed on this instance in order to offer a graphic visualization of the collected metrics.
 
 #### Deployment Guide
 
@@ -23,14 +23,14 @@ The datastream is processed on an EMR cluster using Apache Flink and Hadoop YARN
 * Allow the inbound traffic to both master and slave EMR security groups from the system used to submit the Flink job to the cluster
 * In the EMR cluster copy `/opt/flink-metrics-influxdb-1.10.0.jar` into the `/lib` folder of Flink distribution
 * In the EMR cluster modify the Flink's configuration file to collect metrics into InfluxDB (specifying at least `metrics.reporter.influxdb.class`, `metrics.reporter.influxdb.host`, `metrics.reporter.influxdb.port` and `metrics.reporter.influxdb.db`)
-* In the EMR cluster set the `YARN_CONF_DIR and HADOOP_CONF_DIR` and `HADOOP_CONF_PATH` environment variables
+* In the EMR cluster set the `HADOOP_CONF_DIR` and `HADOOP_CLASSPATH` environment variables
 * In the EMR cluster launch `./bin/yarn-session.sh -tm 4096 -s 4` in order to execute a yarn session in which each task manager has 4GB to mantain the Flink's heap and 4 task slots
-* Move the scripts contained in the `Monitoring` directory of this repository in an EC2 instance
+* Move the scripts contained in the `Monitoring` directory of this repository to an EC2 instance
 * Execute `Monitoring/docker-setup.sh` to install docker
-* Execute `Monitoring/launch_ic_stack.sh` to launch a docker network with two container with InfluxDB and Chronograp respectively
-* Connect to the port 8888 of this instance to access to Chronograp web UI and create a database with the same name specified in Flink's configuration file
-* Move the scripts contained in the directory `Ingestion-Export` of this repository on the another EC2 instace
+* Execute `Monitoring/launch_ic_stack.sh` to launch a docker network with two container with InfluxDB and Chronograf respectively
+* Connect to the port 8888 of this instance to access to Chronograf web UI and create a database with the same name specified in Flink's configuration file
+* Move the scripts contained in the directory `Ingestion-Export` of this repository to the other EC2 instance
 * Execute `Ingestion-Export/kafka-ec2-installation.sh` to install and execute Kafka (follow the printed instructions in case of errors)
 * Execute `Ingestion-Export/create_kafka_topics.sh` to create the Kafka topic used to mantain the input and the output records
 * Move the jar of the application to EMR master and run it whit `flink run` specifying the required input parameters
-* Now you can execute `Ingestion-Export/create_csv_output_file.sh` on Kafka server to collect in output files the resulting records and you can monitor performance metrics through the Chronograp web UI
+* Now you can execute `Ingestion-Export/create_csv_output_file.sh` on Kafka server to collect in output files the resulting records and you can monitor performance metrics through the Chronograf web UI
